@@ -1,0 +1,12 @@
+@import "buttons.css";
+
+/* Split a div into two parts */
+
+.split{
+    display: flex;
+    align-items: center;
+}
+
+.split > * {
+    width: 50%;
+}
