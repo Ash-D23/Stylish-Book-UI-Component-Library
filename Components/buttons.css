@@ -39,20 +39,49 @@
     background: var(--clr-grey);
 }
 
-.btn--solid{
+.btn--primary{
     background: var(--clr-primary);
     color: var(--text-clr-primary);
 }
 
-.btn-solid:hover{
+.btn-primary:hover{
     background: var(--clr-primary-dark);
 }
 
-.btn--solid--secondary{
+.btn--secondary{
     background: var(--clr-secondary);
     color: var(--text-clr-secondary);
 }
 
-.btn-solid:hover{
+.btn-secondary:hover{
     background: var(--clr-secondary-dark);
+}
+
+.btn--disabled{
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.btn--float-br{
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+}
+
+.btn--float-tr{
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}
+
+.btn--float-bl{
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+}
+
+.btn--float-tr{
+    position: absolute;
+    top: 10%;
+    right: 10%;
 }

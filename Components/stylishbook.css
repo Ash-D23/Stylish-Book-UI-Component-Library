@@ -1,22 +1,24 @@
 @import "typography.css";
 @import "utilities.css";
+@import "buttons.css";
 
 @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Roboto:wght@300&display=swap');
 
 /* Root */
 
 :root {
-    --clr-primary: white;
-    --clr-secondary: #c31432;
-    --clr-secondary-dark: #ED213A;
+    --clr-primary: #FFFFFF;
+    --clr-primary-dark: #D1D5DB;
+    --clr-secondary: #dc2626;
+    --clr-secondary-dark: #c31432;
 
-    --text-clr-primary: black;
-    --text-clr-secondary: white;
+    --text-clr-primary: #000000;
+    --text-clr-secondary: #FFFFFF;
 
-    --clr-light: #FE8176;
+    --clr-light: #f87171;
 
-    --clr-grey: #808080;
-    --clr-dark-grey: #C0C0C0;
+    --clr-grey: #9ca3af;    ;
+    --clr-dark-grey: #6b7280;
 
     --font-family-primary: "Roboto", sans-serif;
     --font-family-secondary: 'Mochiy Pop P One', sans-serif;
@@ -35,12 +37,13 @@
 }
 
 [data-theme="dark"] {
-  --clr-primary: black;
-  --clr-secondary: #FF3F80;
-  --clr-secondary-dark: #c31432;
+  --clr-primary: #000000;
+  --clr-primary-dark: #6B7280;
+  --clr-secondary: #f87171;
+  --clr-secondary-dark: #dc2626;
 
-  --text-clr-primary: white;
-  --text-clr-secondary: white;
+  --text-clr-primary: #FFFFFF;
+  --text-clr-secondary: #FFFFFF;
 
 }
 
