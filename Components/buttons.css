@@ -76,25 +76,25 @@
 }
 
 .btn--float-br{
-    position: absolute;
+    position: fixed;
     bottom: 10%;
     right: 10%;
 }
 
 .btn--float-tr{
-    position: absolute;
+    position: fixed;
     top: 10%;
     right: 10%;
 }
 
 .btn--float-bl{
-    position: absolute;
+    position: fixed;
     bottom: 10%;
     left: 10%;
 }
 
 .btn--float-tr{
-    position: absolute;
+    position: fixed;
     top: 10%;
     right: 10%;
 }
