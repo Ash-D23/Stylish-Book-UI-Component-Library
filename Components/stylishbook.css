@@ -1,6 +1,7 @@
 @import "typography.css";
 @import "utilities.css";
 @import "buttons.css";
+@import "alerts.css";
 
 @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Roboto:wght@300&display=swap');
 
@@ -19,6 +20,10 @@
 
     --clr-grey: #9ca3af;    ;
     --clr-dark-grey: #6b7280;
+
+    --clr-warning: #f59e0b;    ;
+    --clr-success: #22c55e;
+    --clr-error: #ef4444;
 
     --font-family-primary: "Roboto", sans-serif;
     --font-family-secondary: 'Mochiy Pop P One', sans-serif;
