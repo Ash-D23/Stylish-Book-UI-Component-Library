@@ -1,4 +1,3 @@
-@import "buttons.css";
 @import "margin-padding.css";
 
 /* Split a div into two parts */
@@ -10,4 +9,65 @@
 
 .split > * {
     width: 50%;
+}
+
+/* Container */
+
+.container--90{
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container--80{
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container--50{
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container__flex{
+    display: flex;
+}
+
+.container__flex--center{
+    align-items: center;
+    justify-content: center;
+}
+
+/* border div */
+
+.border--grey{
+    border: 2px solid var(--clr-grey);
+}
+
+/* Colors */
+
+.background--primary{
+    background-color: var(--clr-primary);
+}
+
+.background--secondary{
+    background-color: var(--clr-secondary);
+}
+
+.background--light{
+    background-color: var(--clr-light);
+}
+
+.background--grey{
+    background-color: var(--clr-grey);
+}
+
+.text-clr--primary{
+    color: var(--text-clr-primary);
+}
+
+.text-clr--secondary{
+    color: var(--text-clr-secondary);
 }

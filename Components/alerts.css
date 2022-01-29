@@ -1,0 +1,44 @@
+/* Alerts */
+
+.alert__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--padding-medium);
+    border-radius: 10px;
+    max-width: 80%;
+    color: var(--clr-primary);
+    margin: var(--margin-medium) auto;
+}
+
+.alert__message{
+    margin-left: var(--margin-medium);
+}
+
+.alert__clear{
+    margin-right: var(--margin-medium);
+    cursor: pointer;
+}
+
+
+.alert--primary{
+    background-color: var(--clr-primary);
+    color: var(--text-clr-primary);
+}
+
+.alert--secondary{
+    background-color: var(--clr-secondary);
+    color: var(--text-clr-secondary);
+}
+
+.alert--error{
+    background-color: var(--clr-error);
+}
+
+.alert--success{
+    background-color: var(--clr-success);
+}
+
+.alert--warning{
+    background-color: var(--clr-warning);
+}
