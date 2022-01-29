@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Badge Component</title>
+    <link rel="stylesheet" href="../stylishbook.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.1/css/all.css"
+      integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q"
+      crossorigin="anonymous"
+    />
+</head>
+<body>
+    <div class="container--90 container__flex--center border--grey margin--large padding--medium">
+        <span class="badge badge--round badge--small margin-lr--medium">1</span>
+        <span class="badge badge--round badge--medium margin-lr--medium">57</span>
+        <span class="badge badge--round badge--large margin-lr--medium">96</span>
+    </div>
+
+    <div class="container--90 container__flex--center border--grey margin--large padding--medium">
+        <div class="badge-content margin-lr--medium">
+            <p>This is a text</p>
+            <div class="badge badge--round badge-topleft badge--small"></div>
+        </div>
+        <div class="badge-content margin-lr--medium">
+            <button class="btn btn--secondary">Secondary</button>
+            <div class="badge badge--round badge-topleft badge--small badge--border-white"></div>
+        </div>
+
+        <p class="badge badge--medium margin-lr--medium">Text</p>
+
+        <div class="badge-content margin-lr--medium">
+            <i class="fas fa-shopping-cart"></i>
+            <div class="badge badge--round badge-topright badge--small">23</div>
+        </div>
+
+        <div class="badge badge--round badge--large margin-lr--medium"><i class="fas fa-shopping-cart"></i></div>
+    </div>
+
+    <div class="container--90 container__flex--center border--grey margin--large padding--medium">
+        <div class="badge-content margin-lr--medium">
+            <div class="avatar avatar--large">
+                <img src="../Images/avatar-image1.jpg" />
+            </div>
+            <div class="badge badge--round badge__status--online badge__status--bottomright badge--large badge--border-white"></div>
+        </div>
+        <div class="badge-content margin-lr--medium">
+            <div class="avatar avatar--medium">
+                <img src="../Images/avatar-image1.jpg" />
+            </div>
+            <div class="badge badge--round badge__status--busy badge__status--bottomright badge--medium badge--border-white"></div>
+        </div>
+        <div class="badge-content margin-lr--medium">
+            <div class="avatar avatar--small">
+                <img src="../Images/avatar-image1.jpg" />
+            </div>
+            <div class="badge badge--round badge__status--busy badge__status--bottomright badge--xs badge--border-white"></div>
+        </div>
+    </div>
+</body>
+</html>
