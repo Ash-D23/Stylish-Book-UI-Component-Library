@@ -35,6 +35,10 @@
     display: flex;
 }
 
+.container__flex--wrap{
+    flex-wrap: wrap;
+}
+
 .container__flex--center{
     display: flex;
     align-items: center;
@@ -46,6 +50,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.container--relative{
+    position: relative;
 }
 
 /* border div */
@@ -82,4 +90,8 @@
 
 .text--line-through{
     text-decoration: line-through;
+}
+
+.image--overlay:hover{
+    opacity: 0.8;
 }
