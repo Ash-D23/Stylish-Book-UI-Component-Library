@@ -1,0 +1,46 @@
+.avatar{
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.avatar--square{
+    border-radius: 0;
+}
+
+.avatar--large{
+    width: 15rem;
+    height: 15rem;
+    font-size: 7.5rem;
+}
+
+.avatar--small{
+    width: 6rem;
+    height: 6rem;
+    font-size: 3rem;
+}
+
+.avatar--medium{
+    width: 10rem;
+    height: 10rem;
+    font-size: 5rem;
+}
+
+.avatar img{
+    height: 100%;
+}
+
+.avatar--text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatar--primary{
+    background-color: var(--clr-primary);
+    color: var(--text-clr-primary);
+}
+
+.avatar--secondary{
+    background-color: var(--clr-secondary);
+    color: var(--text-clr-secondary);
+}

@@ -22,6 +22,18 @@
 
 .margin-bottom--large{
     margin-bottom: var(--margin-large);
+} 
+
+.margin-lr--small{
+    margin: 0 var(--margin-small);
+}
+
+.margin-lr--medium{
+    margin: 0 var(--margin-medium);
+}
+
+.margin-lr--large{
+    margin: 0 var(--margin-large);
 }
 
 /* Padding */

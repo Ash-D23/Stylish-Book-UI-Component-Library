@@ -1,0 +1,108 @@
+.badge{
+    background-color: var(--clr-secondary);
+    color: var(--text-clr-secondary);
+    padding: 0.25em;
+    text-align: center;
+    z-index: 1;
+    display: inline;
+}
+
+.badge--round{
+    border-radius: 50%;
+}
+
+.badge__status--online{
+    background-color: #22c55e;
+}
+
+.badge__status--busy{
+    background-color: #dc2626;
+}
+
+.badge--border-white{
+    border: 0.2em solid #FFFFFF;
+}
+
+.badge--small{
+    font-size: 1rem;
+    min-width: 1.6rem;
+    height: 1.6rem;
+    text-align: center;
+}
+
+.badge--xs{
+    font-size: 0.6rem;
+    min-width: 1.2rem;
+    height: 1.2rem;
+    text-align: center;
+}
+
+.badge--medium{
+    font-size: 1.25rem;
+    min-width: 2rem;
+    height: 2rem;
+    text-align: center;
+}
+
+.badge--large{
+    min-width: 3rem;
+    height: 3rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.badge-content{
+    position: relative;
+}
+
+.badge-topright{
+    position: absolute;
+    top: -1em;
+    right: -1em;
+}
+
+.badge-topleft{
+    position: absolute;
+    top: -1em;
+    left: -1em;
+}
+
+.badge-bottomright{
+    position: absolute;
+    bottom: -1em;
+    right: -1em;
+}
+
+.badge-bottomleft{
+    position: absolute;
+    bottom: -1em;
+    left: -1em;
+}
+
+.badge i{
+    font-size: inherit;
+}
+
+.badge__status--topright{
+    position: absolute;
+    top: 0.5em;
+    right: 0.5em;
+}
+
+.badge__status--topleft{
+    position: absolute;
+    top: 0.5em;
+    left: 0.5em;
+}
+
+.badge__status--bottomright{
+    position: absolute;
+    bottom: 0.5em;
+    right: 0.5em;
+}
+
+.badge__status--bottomleft{
+    position: absolute;
+    bottom: 0.5em;
+    left: 0.5em;
+}
