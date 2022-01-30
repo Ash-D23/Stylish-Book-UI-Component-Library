@@ -90,6 +90,7 @@
 
 .text--line-through{
     text-decoration: line-through;
+    color: var(--clr-grey);
 }
 
 .image--overlay:hover{
