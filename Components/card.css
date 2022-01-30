@@ -1,0 +1,81 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    border-radius: 2%;
+    box-shadow: -5px 4px 7px 0px rgba(97,91,91,0.75);
+    overflow: hidden;
+    background-color: var(--clr-primary);
+    color: var(--text-clr--primary);
+}
+
+.card-imageandtext{
+    position: relative;
+    background-image: url("../Images/batman.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 15rem;
+}
+
+.card-2 .card__heading{
+    position:absolute;
+    bottom:10px;
+    left: 10px;
+}
+
+.card-3 .card__heading{
+    order: -1;
+    margin-top: var(--margin-medium);
+}
+
+.card__actions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card__actions--buttons{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card__actions--buttons button{
+    margin-top: 0.5rem;
+    margin-right: 0.5rem
+}
+
+.card__actions--icons{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card__actions--icons i{
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+    color: var(--text-clr--primary);
+    padding: 0.5rem;
+    font-size: 2.4rem;
+}
+
+.card__actions--icons i:hover{
+    cursor: pointer;
+    color: var(--clr-secondary);
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+
+.card__heading i{
+    cursor: pointer;
+    padding: 0.5rem;
+}
+
+.card__heading i:hover{
+    cursor: pointer;
+    color: var(--clr-secondary);
+}

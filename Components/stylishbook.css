@@ -1,7 +1,8 @@
 @import "typography.css";
-@import "utilities.css";
 @import "buttons.css";
 @import "alerts.css";
+@import "card.css";
+@import "utilities.css";
 
 @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Roboto:wght@300&display=swap');
 
