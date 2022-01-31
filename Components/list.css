@@ -1,0 +1,16 @@
+.styled-list li{
+    padding: var(--padding-small);
+}
+
+.styled-list--inline{
+    display: flex;
+    
+}
+
+.styled-list--inline li{
+    margin-right: var(--margin-small);
+}
+
+.styled-list--stacked li{
+    margin-bottom: var(--margin-small);
+}
