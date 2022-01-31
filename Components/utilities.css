@@ -72,3 +72,7 @@
 .text-clr--secondary{
     color: var(--text-clr-secondary);
 }
+
+.hide{
+    display: none;
+}

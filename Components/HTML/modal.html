@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal Component</title>
+    <link rel="stylesheet" href="../stylishbook.css" />
+    <link rel="stylesheet" href="../modal.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.1/css/all.css"
+      integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q"
+      crossorigin="anonymous"
+    />
+</head>
+<body >
+    <div class="container--90 margin--large padding--large">
+        <div class="modal__container--plain">
+            <div class="modal__header margin--medium">
+                <h3 class="text--large">modal Header</h3>
+            </div>
+            <div class="modal__body margin--medium">
+                <p class="text--medium">This is a simple modal</p>
+            </div>
+            <div class="modal__actions">
+                <button class="btn btn--primary border--grey">Accept</button>
+                <button class="btn btn--secondary">Decline</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container--90 margin--large">
+        <button id="modal-demo" class="btn btn--secondary">Demo</button>
+
+        <div class="modal__overlay hide">
+            <div class="modal__container">
+                
+                <div class="modal__header container__flex margin--medium">
+                    <h3 class="text--large">modal Header</h3>
+                    <i class="fas fa-times modal__close"></i>
+                </div>
+                <div class="modal__body margin--medium">
+                    <p class="text--medium">This is a simple modal</p>
+                </div>
+                <div class="modal__actions">
+                    <button class="btn btn--primary border--grey">Accept</button>
+                    <button class="btn btn--secondary">Decline</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../JS/script.js"></script>
+</body>
+</html>
