@@ -106,3 +106,9 @@
     bottom: 0.5em;
     left: 0.5em;
 }
+
+.badge-card-tr{
+    position: absolute;
+    top: 0.8em;
+    right:0;
+}
