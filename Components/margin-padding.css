@@ -50,6 +50,6 @@
     padding: var(--padding-medium);
 }
 
-.padding-large{
+.padding--large{
     padding: var(--padding-large);
 }

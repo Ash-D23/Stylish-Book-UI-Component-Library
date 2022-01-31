@@ -88,9 +88,25 @@
     color: var(--clr-secondary);
 }
 
+.background--error{
+    background-color: var(--clr-error);
+}
+
+.background--success{
+    background-color: var(--clr-success);
+}
+
+.background--warning{
+    background-color: var(--clr-warning);
+}
+
 .text--line-through{
     text-decoration: line-through;
     color: var(--clr-grey);
+}
+
+.text-clr--secondary{
+    color: var(--text-clr-secondary);
 }
 
 .image--overlay:hover{
@@ -104,3 +120,8 @@
 .img--cover{
     object-fit: cover;
 }
+
+.hide{
+    display: none;
+}
+
