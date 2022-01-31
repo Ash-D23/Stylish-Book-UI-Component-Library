@@ -12,3 +12,7 @@
     height: 20rem;
     object-fit: cover;
 }
+
+.img--cover{
+    object-fit: cover;
+}
