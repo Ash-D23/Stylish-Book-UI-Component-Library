@@ -36,6 +36,10 @@
     margin: 0 var(--margin-large);
 }
 
+.margin--auto{
+    margin: auto;
+}
+
 /* Padding */
 
 .padding--small{
