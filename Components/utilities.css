@@ -105,6 +105,15 @@
     color: var(--clr-grey);
 }
 
+.text-clr--secondary{
+    color: var(--text-clr-secondary);
+}
+
 .image--overlay:hover{
     opacity: 0.8;
 }
+
+.hide{
+    display: none;
+}
+

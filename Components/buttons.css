@@ -1,11 +1,11 @@
 /* Buttons */
 
 .btn{
-    padding: var(--padding-medium);
+    padding: var(--padding-small) var(--padding-medium);
     border: none;
     font-size: var(--text-medium);
     cursor: pointer;
-    border-radius: 5%;
+    border-radius: 5px;
 }
 
 .btn--small{
@@ -15,7 +15,7 @@
 
 .btn--large{
     font-size: var(--text-large);
-    padding: var(--padding-large);
+    padding: var(--padding-medium) var(--padding-large);
 }
 
 .btn--outline{
@@ -27,6 +27,17 @@
 .btn--outline:hover{
     background: var(--text-clr-primary);
     color: var(--clr-primary);
+}
+
+.btn--outline-secondary{
+    background: transparent;
+    border: 1px solid var(--clr-secondary);
+    color: var(--text-clr-primary);
+}
+
+.btn--outline-secondary:hover{
+    background: var(--clr-secondary);
+    color: var(--text-clr-secondary);
 }
 
 .btn--text{

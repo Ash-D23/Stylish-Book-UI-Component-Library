@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Inputs</title>
+    <link rel="stylesheet" href="../stylishbook.css" />
+    <link rel="stylesheet" href="../form-input.css" />
+</head>
+<body>
+    <div class="container--80 border--grey margin--large">
+        <form class="form">
+
+            <div class="form-element">
+                <label class="form-label form-label--required">Enter Name</label>
+                <input type="text" class="form-field" placeholder="Enter Name"/>
+            </div>
+            
+            <div class="form-element">
+                <label class="form-label form-label--required">Enter Email</label>
+                <input type="email" class="form-field form--error" placeholder="Enter Email"/>
+            </div>
+
+            <div class="form-element">
+                <label class="form-label form-label--required">Enter Email</label>
+                <input type="email" class="form-field--text-only" value="abc@example.com" disabled/>
+            </div>
+
+            <div class="form-element">
+                <label class="form-label form-label--required">Enter Date</label>
+                <input type="date" class="form-field" placeholder="Enter Name"/>
+            </div>
+
+            <div class="form-element">
+                <label class="form-label">Gender</label>
+
+                <input type="radio" class="form-radio" name="gender" value="Male" />
+                <span> Male </span>
+                <input type="radio" class="form-radio" name="gender" value="Female" />
+                <span> Female</span>
+            </div>
+
+            <div class="form-element">
+                <input type="checkbox" class="form-checkbox" /> 
+                <span>Agree </span>
+            </div>
+            
+
+            <button class="btn btn--outline-secondary margin--small">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
