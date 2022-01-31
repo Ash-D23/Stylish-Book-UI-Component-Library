@@ -25,14 +25,14 @@
     width: 3rem;
     height: 3rem;
     font-size: 3rem;
-    color: orange;
+    color: #FFA500;
 }
 
 .star-rating--plain > label{
     width: 3rem;
     height: 3rem;
     font-size: 3rem;
-    color: orange;
+    color: #FFA500;
 }
 
 .star::before{
@@ -54,6 +54,7 @@
     position: absolute;
     top: 0px;
     line-height: 26px;
+    cursor: pointer;
 }
 
 .star-rating input:checked ~ label::before {
