@@ -76,7 +76,7 @@
     }
 
     .navbar__item:hover{
-        background-color: var(--clr-grey);
+        background-color: var(--clr-light);
         border: none;
     }
 

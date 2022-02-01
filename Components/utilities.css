@@ -117,10 +117,6 @@
     max-height: 30vh;
 }
 
-.img--cover{
-    object-fit: cover;
-}
-
 .hide{
     display: none;
 }
