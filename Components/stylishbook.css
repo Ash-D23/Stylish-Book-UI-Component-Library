@@ -24,12 +24,12 @@
     --clr-primary: #FFFFFF;
     --clr-primary-dark: #D1D5DB;
     --clr-secondary: #dc2626;
-    --clr-secondary-dark: #c31432;
+    --clr-secondary-dark: #991b1b;
 
     --text-clr-primary: #000000;
     --text-clr-secondary: #FFFFFF;
 
-    --clr-light: #f87171;
+    --clr-light: #ef4444;
 
     --clr-grey: #9ca3af;    ;
     --clr-dark-grey: #6b7280;
@@ -42,8 +42,8 @@
     --font-family-secondary: 'Mochiy Pop P One', sans-serif;
 
     --text-small: 1rem;
-    --text-medium: 1.6rem;
-    --text-large: 2rem;
+    --text-medium: 1.8rem;
+    --text-large: 2.4rem;
 
     --padding-small: 0.5rem;
     --padding-medium: 1rem;
@@ -57,7 +57,7 @@
 [data-theme="dark"] {
   --clr-primary: #000000;
   --clr-primary-dark: #6B7280;
-  --clr-secondary: #f87171;
+  --clr-secondary: #ef4444;
   --clr-secondary-dark: #dc2626;
 
   --text-clr-primary: #FFFFFF;
@@ -112,6 +112,7 @@ iframe {
 img{
   width: 100%;
   height: 100%;
+  overflow: hidden;
 }
 
 /* scrollbars */

@@ -36,6 +36,18 @@
     margin: 0 var(--margin-large);
 }
 
+.margin-tb--small{
+    margin: var(--margin-small) 0;
+}
+
+.margin-tb--medium{
+    margin: var(--margin-medium) 0;
+}
+
+.margin-tb--large{
+    margin: var(--margin-large) 0;
+}
+
 .margin--auto{
     margin: auto;
 }

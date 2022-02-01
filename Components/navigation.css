@@ -45,7 +45,7 @@
 }
 
 .navbar__logo i{
-    font-size: var(--text--large);
+    font-size: var(--text-large);
 }
 
 @media only screen and (max-width: 600px) {
