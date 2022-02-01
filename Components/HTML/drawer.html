@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drawer Component</title>
+    <link rel="stylesheet" href="../stylishbook.css" />
+</head>
+<body>
+
+    <div class="container--80 container__flex--center border--grey margin--large padding--medium">
+        <div class="drawer__container clr--violet padding--medium">
+            <div class="drawer__heading">
+                <h2 class="drawer__title text--large mb--small">Title</h2>
+                <h3 class="drawer__subtitle text--medium">Subtitle</h3>
+            </div>
+            <div class="drawer__navigation">
+                <div class="drawer__navigation-items active">
+                    <i class="fas fa-inbox"></i>
+                    <p>Inbox</p>
+                </div>
+                <div class="drawer__navigation-items">
+                    <i class="far fa-star"></i>
+                    <p>Star</p>
+                </div>
+                <div class="drawer__navigation-items">
+                    <i class="fas fa-paper-plane"></i>
+                    <p>Sent Mail</p>
+                </div>
+                <div class="drawer__navigation-items">
+                    <i class="fas fa-pencil-ruler"></i>
+                    <p>Drafts</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container--80 container__flex--center border--grey margin--large padding--medium">
+        <div class="drawer__container clr--violet padding--medium">
+            <div class="drawer__heading">
+                <h2 class="drawer__title text--large mb--small">Title</h2>
+                <h3 class="drawer__subtitle text--medium">Subtitle</h3>
+            </div>
+            <div class="drawer__navigation">
+                <div class="drawer__navigation-items active">
+                    <i class="fas fa-inbox"></i>
+                    <p>Inbox</p>
+                </div>
+                <div class="drawer__navigation drawer__navigation--nested">
+                    <div class="drawer__navigation-items">
+                        <p>Primary</p>
+                    </div>
+                    <div class="drawer__navigation-items">
+                        <p>Spam</p>
+                    </div>
+                </div>
+                <div class="drawer__navigation-items">
+                    <i class="far fa-star"></i>
+                    <p>Star</p>
+                </div>
+                <div class="drawer__navigation-items">
+                    <i class="fas fa-paper-plane"></i>
+                    <p>Sent Mail</p>
+                </div>
+                <div class="drawer__navigation-items">
+                    <i class="fas fa-pencil-ruler"></i>
+                    <p>Drafts</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
