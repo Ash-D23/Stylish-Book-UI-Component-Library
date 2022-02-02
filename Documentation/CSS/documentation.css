@@ -1,3 +1,13 @@
+.navbar__container .navbar__heading-container{
+    font-size: 2rem;
+    font-family: var(--font-family-secondary);
+}
+
+.navbar__container .navbar__item{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
 .about__description h2{
     font-family: var(--font-family-secondary);
 }
@@ -60,6 +70,20 @@
     font-weight: 100;
 }
 
+.doc__main .drawer__container{
+    overflow-y: auto;
+}
+
+.drawer__container::-webkit-scrollbar {
+    width: 6px;
+    background-color: transparent;
+}
+
+.drawer__container::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+
+
 @media only screen and (max-width: 600px) {
 
     .container--90{
@@ -77,5 +101,9 @@
     .btn--container{
         display: flex;
         justify-content: center;
+    }
+
+    .drawer__container{
+        display: none;
     }
 }

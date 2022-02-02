@@ -12,6 +12,19 @@
     margin: var(--margin-large);
 }
 
+.margin-top--small{
+    margin-top: var(--margin-small);
+}
+
+.margin-top--medium{
+    margin-top: var(--margin-medium);
+}
+
+.margin-top--large{
+    margin-top: var(--margin-large);
+}
+
+
 .margin-bottom--medium{
     margin-bottom: var(--margin-medium);
 }
