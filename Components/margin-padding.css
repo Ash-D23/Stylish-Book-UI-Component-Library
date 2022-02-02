@@ -24,6 +24,18 @@
     margin-bottom: var(--margin-large);
 } 
 
+.margin-right--medium{
+    margin-right: var(--margin-medium);
+}
+
+.margin-right--small{
+    margin-right: var(--margin-small);
+}
+
+.margin-right--large{
+    margin-right: var(--margin-large);
+} 
+
 .margin-lr--small{
     margin: 0 var(--margin-small);
 }

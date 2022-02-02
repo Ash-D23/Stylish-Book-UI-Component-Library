@@ -58,7 +58,7 @@
   --clr-primary: #000000;
   --clr-primary-dark: #6B7280;
   --clr-secondary: #ef4444;
-  --clr-secondary-dark: #dc2626;
+  --clr-secondary-dark: #991b1b;
 
   --text-clr-primary: #FFFFFF;
   --text-clr-secondary: #FFFFFF;
@@ -82,6 +82,7 @@ html {
 body{
     font-size: var(--text-medium);
     background-color: var(--clr-primary);
+    color: var(--text-clr-primary);
 }
 
 h1,

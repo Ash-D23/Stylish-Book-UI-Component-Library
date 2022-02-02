@@ -33,7 +33,7 @@
 
 .footer__icons i:hover{
     cursor: pointer;
-    color: var(--clr-light);
+    font-size: 2.6rem;
     
 }
 
@@ -48,4 +48,34 @@
 
 .code--template iframe{
     width: 100%;
+}
+
+.doc__main{
+    display: grid;
+    grid-template-columns: 25rem 1fr;
+}
+
+.doc__main h3{
+    font-family: var(--font-family-secondary);
+    font-weight: 100;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .container--90{
+        max-width: 100%;
+    }
+    
+    .about p,h2{
+        text-align: center;
+    }
+
+    .install p,h2{
+        text-align: center;
+    }
+
+    .btn--container{
+        display: flex;
+        justify-content: center;
+    }
 }

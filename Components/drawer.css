@@ -1,6 +1,5 @@
 .drawer__container{
     min-width: 20rem;
-    box-shadow: -5px 4px 7px 0px var(--clr-secondary);
     display: flex;
     flex-direction: column;
 }
@@ -29,7 +28,8 @@
 }
 
 .drawer__navigation-items:hover{
-    background-color: var(--clr-primary-dark);
+    background-color: var(--clr-light);
+    color: var(--text-clr-secondary)
 }
 
 .drawer__navigation-items i{
@@ -41,5 +41,6 @@
 }
 
 .drawer__navigation .active{
-    background-color: var(--clr-primary-dark);
+    background-color: var(--clr-light);
+    color: var(--text-clr-secondary)
 }

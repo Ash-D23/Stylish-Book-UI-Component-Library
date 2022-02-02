@@ -5,6 +5,7 @@
 .split{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .split > * {
@@ -56,6 +57,16 @@
     position: relative;
 }
 
+.container--sticky{
+    position: sticky;
+    top: 0;
+}
+
+.container--fixed{
+    position: fixed;
+    top: 0;
+}
+
 /* border div */
 
 .border--grey{
@@ -86,6 +97,14 @@
 
 .clr--secondary{
     color: var(--clr-secondary);
+}
+
+.text-clr--primary{
+    color: var(--text-clr-primary);
+}
+
+.text-clr--secondary{
+    color: var(--text-clr-secondary);
 }
 
 .background--error{
@@ -121,7 +140,18 @@
     max-height: 30vh;
 }
 
+.height-80{
+    max-height: 80vh;
+}
+
 .hide{
     display: none;
 }
 
+
+@media only screen and (max-width: 600px) {
+    .split > * {
+        width: 100%;
+    }
+
+}
