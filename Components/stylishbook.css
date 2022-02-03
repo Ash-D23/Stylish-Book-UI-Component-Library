@@ -97,6 +97,7 @@ h6{
 
 a{
     text-decoration: none;
+    color: var(--text-clr-primary);
 }
 
 li{
@@ -129,4 +130,8 @@ img{
 *::-webkit-scrollbar-thumb {
     background-color: var(--clr-dark-grey);
     border-radius: 20px;
+}
+
+html {
+  scroll-behavior: smooth;
 }

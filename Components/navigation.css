@@ -61,6 +61,7 @@
 
 .navbar__item a{
     cursor: pointer;
+    color: var(--text-clr-secondary);
 }
 
 .navbar__item:hover{

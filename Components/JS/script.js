@@ -19,7 +19,7 @@ if(toast_demo){
         newtoast.classList.add('toast-bottom')
         newtoast.classList.add('background--success')
         newtoast.classList.add('clr--primary')
-        
+        console.log(newtoast)
         document.body.appendChild(newtoast)
 
         const timerid = setTimeout(()=>{

@@ -21,7 +21,8 @@
                     </div>
                 </div>
                 <div class="navbar__menu">
-                        <i class="fas fa-bars"></i>
+                        <i class="fas fa-bars icon__menu"></i>
+                        <i class="fas fa-times icon__times hide"></i>
                 </div>
             </div>
             <ul class="navbar__list-container text--medium margin-top--small">
@@ -36,7 +37,7 @@
     </div>
 
     <div class="doc__main">
-        <div class="drawer__container height-100 container--sticky clr--secondary padding--medium">
+        <div class="drawer__container doc__drawer height-100 container--sticky clr--secondary padding--medium">
             <div class="drawer__heading">
                 <h3 class="drawer__title margin-bottom--small">Components</h3>
             </div>
@@ -45,7 +46,7 @@
                     <p>Alert</p>
                 </div>
                 <div class="drawer__navigation-items">
-                    <p>Button</p>
+                    <a href="#button"><p>Button</p></a>
                 </div>
                 <div class="drawer__navigation-items">
                     <p>Avatar</p>
@@ -85,8 +86,708 @@
                 </div>
             </div>
         </div>
-        <div class="main">
+        <div class="main padding--medium">
+            <div class="doc__section" id="alert">
+                <h3 class="doc__title margin-bottom--small">Alerts</h3>
+                <p class="doc__description">Alerts are available in 5 types- success alert, error alert, warning alert, primary alert, secondary alert.</p>
+
+                <div class="container--90 padding--medium margin--large border--grey">
+                    <div class="alert__container alert--primary border--grey">
+                        <p class="alert__message">This is a Message</p>
+                        <i class="fas fa-times alert__clear"></i>
+                    </div>
+                    <div class="alert__container alert--secondary">
+                        <p class="alert__message">This is a Message</p>
+                        <i class="fas fa-times alert__clear"></i>
+                    </div>
+                    <div class="alert__container alert--success">
+                        <p class="alert__message">This is a Message</p>
+                        <i class="fas fa-times alert__clear"></i>
+                    </div>
+                    <div class="alert__container alert--error">
+                        <p class="alert__message">This is a Message</p>
+                        <i class="fas fa-times alert__clear"></i>
+                    </div>
+                    <div class="alert__container alert--warning">
+                        <p class="alert__message">This is a Message</p>
+                        <i class="fas fa-times alert__clear"></i>
+                    </div>
+                </div>
+                <div class="container--90">
+                    <div class="code--template">
+                        <code >
+                            <iframe
+                            src="https://carbon.now.sh/embed/5LmpA9kMbbsTN4B3ZyIb"
+                            style="border:0; transform: scale(1); overflow:auto;"
+                            sandbox="allow-scripts allow-same-origin">
+                          </iframe>
+                        </code>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="doc__section" id="button">
+                <h3 class="doc__title margin-bottom--small">Buttons</h3>
+                <p class="doc__description">Alerts are available in 5 types- success alert, error alert, warning alert, primary alert, secondary alert.</p>
+
+                <div class="container--90 border--grey margin--large padding--medium">
+                    <button class="btn btn--outline">Outline</button>
+                    <button class="btn btn--primary">Primary</button>
+                    <button class="btn btn--secondary">Secondary</button>
+                    <a class="btn btn--link">Link</a>
+                    <button class="btn btn--secondary btn--icon"><i class="fab fa-github"></i>Click</button>
+                </div>
+
+                <div class="container--90">
+                    <div class="code--template">
+                        <code >
+                            <iframe
+                            src="https://carbon.now.sh/embed/5LmpA9kMbbsTN4B3ZyIb"
+                            style="border:0; transform: scale(1); overflow:auto;"
+                            sandbox="allow-scripts allow-same-origin">
+                          </iframe>
+                        </code>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="doc__section" id="avatar">
+                <h3 class="doc__title margin-bottom--small">Avatar</h3>
+                <p class="doc__description">Alerts are available in 5 types- success alert, error alert, warning alert, primary alert, secondary alert.</p>
+
+                <div class="container--90 container__flex--center border--grey margin--large padding--medium">
+                    <div class="avatar avatar--large margin-lr--medium">
+                        <img src="../Components/Images/avatar-image1.jpg" />
+                    </div>
+                    <div class="avatar avatar--medium margin-lr--medium">
+                        <img src="../Components/Images/avatar-image2.jpg" />
+                    </div>
+                    <div class="avatar avatar--small margin-lr--medium">
+                        <img src="../Components/Images/avatar-image3.jpg" />
+                    </div>
+                </div>
             
+                <div class="container--90 container__flex--center border--grey margin--large padding--medium">
+                    <div class="avatar avatar--text avatar--secondary avatar--large margin-lr--medium">
+                        AB
+                    </div>
+                    <div class="avatar avatar--text avatar--primary avatar--medium border--grey margin-lr--medium">
+                        AB
+                    </div>
+                    <div class="avatar avatar--text avatar--secondary avatar--small margin-lr--medium">
+                        AB
+                    </div>
+                </div>
+
+                <div class="container--90">
+                    <div class="code--template">
+                        <code >
+                            <iframe
+                            src="https://carbon.now.sh/embed/5LmpA9kMbbsTN4B3ZyIb"
+                            style="border:0; transform: scale(1); overflow:auto;"
+                            sandbox="allow-scripts allow-same-origin">
+                          </iframe>
+                        </code>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="doc__section" id="badge">
+                <h3 class="doc__title margin-bottom--small">Badge</h3>
+                <p class="doc__description">Alerts are available in 5 types- success alert, error alert, warning alert, primary alert, secondary alert.</p>
+
+                <div class="container--90 container__flex--center border--grey margin--large padding--medium">
+                    <span class="badge badge--round badge--small margin-lr--medium">1</span>
+                    <span class="badge badge--round badge--medium margin-lr--medium">57</span>
+                    <span class="badge badge--round badge--large margin-lr--medium">96</span>
+                </div>
+            
+                <div class="container--90 container__flex--center border--grey margin--large padding--medium">
+                    <div class="badge-content margin-lr--medium">
+                        <p>This is a text</p>
+                        <div class="badge badge--round badge-topleft badge--small"></div>
+                    </div>
+                    <div class="badge-content margin-lr--medium">
+                        <button class="btn btn--secondary">Secondary</button>
+                        <div class="badge badge--round badge-topleft badge--small badge--border-white"></div>
+                    </div>
+            
+                    <p class="badge badge--medium margin-lr--medium">Text</p>
+            
+                    <div class="badge-content margin-lr--medium">
+                        <i class="fas fa-shopping-cart"></i>
+                        <div class="badge badge--round badge-topright badge--small">23</div>
+                    </div>
+            
+                    <div class="badge badge--round badge--large margin-lr--medium"><i class="fas fa-shopping-cart"></i></div>
+                </div>
+            
+                <div class="container--90 container__flex--center border--grey margin--large padding--medium">
+                    <div class="badge-content margin-lr--medium">
+                        <div class="avatar avatar--large">
+                            <img src="../Components/Images/avatar-image1.jpg" />
+                        </div>
+                        <div class="badge badge--round badge__status--online badge__status--bottomright badge--large badge--border-white"></div>
+                    </div>
+                    <div class="badge-content margin-lr--medium">
+                        <div class="avatar avatar--medium">
+                            <img src="../Components/Images/avatar-image1.jpg" />
+                        </div>
+                        <div class="badge badge--round badge__status--busy badge__status--bottomright badge--medium badge--border-white"></div>
+                    </div>
+                    <div class="badge-content margin-lr--medium">
+                        <div class="avatar avatar--small">
+                            <img src="../Components/Images/avatar-image1.jpg" />
+                        </div>
+                        <div class="badge badge--round badge__status--busy badge__status--bottomright badge--xs badge--border-white"></div>
+                    </div>
+                </div>
+
+                <div class="container--90">
+                    <div class="code--template">
+                        <code >
+                            <iframe
+                            src="https://carbon.now.sh/embed/5LmpA9kMbbsTN4B3ZyIb"
+                            style="border:0; transform: scale(1); overflow:auto;"
+                            sandbox="allow-scripts allow-same-origin">
+                          </iframe>
+                        </code>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="doc__section" id="image">
+                <h3 class="doc__title margin-bottom--small">Images</h3>
+                <p class="doc__description">Alerts are available in 5 types- success alert, error alert, warning alert, primary alert, secondary alert.</p>
+
+                <div class="container--50 margin--large">
+                    <img src="../Components/Images/batman.jpg" class="img--responsive" />
+                </div>
+            
+                <div class="container--50 margin--large">
+                    <img src="../Components/Images/batman.jpg" class="img--medium img--round" />
+                </div>
+
+                <div class="container--90">
+                    <div class="code--template">
+                        <code >
+                            <iframe
+                            src="https://carbon.now.sh/embed/5LmpA9kMbbsTN4B3ZyIb"
+                            style="border:0; transform: scale(1); overflow:auto;"
+                            sandbox="allow-scripts allow-same-origin">
+                          </iframe>
+                        </code>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="doc__section" id="input">
+                <h3 class="doc__title margin-bottom--small">Form & Input</h3>
+                <p class="doc__description">Alerts are available in 5 types- success alert, error alert, warning alert, primary alert, secondary alert.</p>
+
+                <div class="container--90 border--grey margin--large">
+                    <form class="form">
+            
+                        <div class="form-element">
+                            <label class="form-label form-label--required">Enter Name</label>
+                            <input type="text" class="form-field" placeholder="Enter Name"/>
+                        </div>
+                        
+                        <div class="form-element">
+                            <label class="form-label form-label--required">Enter Email</label>
+                            <input type="email" class="form-field form--error" placeholder="Enter Email"/>
+                        </div>
+            
+                        <div class="form-element">
+                            <label class="form-label form-label--required">Enter Email</label>
+                            <input type="email" class="form-field--text-only" value="abc@example.com" disabled/>
+                        </div>
+            
+                        <div class="form-element">
+                            <label class="form-label form-label--required">Enter Date</label>
+                            <input type="date" class="form-field" placeholder="Enter Name"/>
+                        </div>
+            
+                        <div class="form-element">
+                            <label class="form-label">Gender</label>
+            
+                            <input type="radio" class="form-radio" name="gender" value="Male" />
+                            <span> Male </span>
+                            <input type="radio" class="form-radio" name="gender" value="Female" />
+                            <span> Female</span>
+                        </div>
+            
+                        <div class="form-element">
+                            <input type="checkbox" class="form-checkbox" /> 
+                            <span>Agree </span>
+                        </div>
+                        
+            
+                        <button class="btn btn--outline-secondary margin--small">Submit</button>
+                    </form>
+                </div>
+
+                <div class="container--90">
+                    <div class="code--template">
+                        <code >
+                            <iframe
+                            src="https://carbon.now.sh/embed/5LmpA9kMbbsTN4B3ZyIb"
+                            style="border:0; transform: scale(1); overflow:auto;"
+                            sandbox="allow-scripts allow-same-origin">
+                          </iframe>
+                        </code>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="doc__section" id="text-utils">
+                <h3 class="doc__title margin-bottom--small">Text utilities</h3>
+                <p class="doc__description">Alerts are available in 5 types- success alert, error alert, warning alert, primary alert, secondary alert.</p>
+
+                <div class="container--90 padding--medium border--grey margin--large">
+                    <h1 class="margin--medium">H1 Heading</h1>
+                    <h2 class="margin--medium">H2 Heading</h2>
+                    <h3 class="margin--medium">H3 Heading</h3>
+                    <h4 class="margin--medium">H4 Heading</h4>
+                </div>
+            
+                <div class="container--90 padding--medium border--grey margin--large">
+                    <p class="text--large margin-bottom--medium">Paragraph Large</p>
+                    <p class="text--medium text--center text--bold margin-bottom--medium">Paragraph Medium & Bold</p>
+                    <p class="text--small text--grey ">Paragraph Small & Grey</p>
+                </div>
+
+                <div class="container--90">
+                    <div class="code--template">
+                        <code >
+                            <iframe
+                            src="https://carbon.now.sh/embed/5LmpA9kMbbsTN4B3ZyIb"
+                            style="border:0; transform: scale(1); overflow:auto;"
+                            sandbox="allow-scripts allow-same-origin">
+                          </iframe>
+                        </code>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="doc__section" id="list">
+                <h3 class="doc__title margin-bottom--small">List</h3>
+                <p class="doc__description">Alerts are available in 5 types- success alert, error alert, warning alert, primary alert, secondary alert.</p>
+
+                <div class="container--90 padding--medium border--grey margin--large">
+                    <ul class="styled-list styled-list--stacked">
+                        <li>Apple</li>
+                        <li>Orange</li>
+                        <li>Mango</li>
+                    </ul>
+                </div>
+            
+                <div class="container--90 padding--medium border--grey margin--large">
+                    <ul class="styled-list styled-list--inline">
+                        <li>Apple</li>
+                        <li>Orange</li>
+                        <li>Mango</li>
+                    </ul>
+                </div>
+
+                <div class="container--90">
+                    <div class="code--template">
+                        <code >
+                            <iframe
+                            src="https://carbon.now.sh/embed/5LmpA9kMbbsTN4B3ZyIb"
+                            style="border:0; transform: scale(1); overflow:auto;"
+                            sandbox="allow-scripts allow-same-origin">
+                          </iframe>
+                        </code>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="doc__section" id="navigation">
+                <h3 class="doc__title margin-bottom--small">Navigation</h3>
+                <p class="doc__description">Alerts are available in 5 types- success alert, error alert, warning alert, primary alert, secondary alert.</p>
+
+                <div class="container--90 margin--large border-grey">
+                    <div class="navbar__container padding--medium">
+                        <div class="navbar__heading-container">
+                            <div class="navbar__logo">
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="navbar__title text--large">
+                                Title
+                            </div>
+                        </div>
+                        <ul class="navbar__list-container">
+                            <li class="navbar__item">
+                                <a>Home</a>
+                            </li>
+                            <li class="navbar__item">
+                                <a>About</a>
+                            </li>
+                            <li class="navbar__item">
+                                <a>Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="container--90">
+                    <div class="code--template">
+                        <code >
+                            <iframe
+                            src="https://carbon.now.sh/embed/5LmpA9kMbbsTN4B3ZyIb"
+                            style="border:0; transform: scale(1); overflow:auto;"
+                            sandbox="allow-scripts allow-same-origin">
+                          </iframe>
+                        </code>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="doc__section" id="drawer">
+                <h3 class="doc__title margin-bottom--small">Drawer</h3>
+                <p class="doc__description">Alerts are available in 5 types- success alert, error alert, warning alert, primary alert, secondary alert.</p>
+
+                <div class="container--90 container__flex--center border--grey margin--large padding--medium">
+                    <div class="drawer__container clr--violet padding--medium">
+                        <div class="drawer__heading">
+                            <h2 class="drawer__title text--large margin-bottom--small">Title</h2>
+                            <h4 class="drawer__subtitles text--medium">Subtitle</h4>
+                        </div>
+                        <div class="drawer__navigation">
+                            <div class="drawer__navigation-items active">
+                                <i class="fas fa-inbox"></i>
+                                <p>Inbox</p>
+                            </div>
+                            <div class="drawer__navigation-items">
+                                <i class="far fa-star"></i>
+                                <p>Star</p>
+                            </div>
+                            <div class="drawer__navigation-items">
+                                <i class="fas fa-paper-plane"></i>
+                                <p>Sent Mail</p>
+                            </div>
+                            <div class="drawer__navigation-items">
+                                <i class="fas fa-pencil-ruler"></i>
+                                <p>Drafts</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container--90">
+                    <div class="code--template">
+                        <code >
+                            <iframe
+                            src="https://carbon.now.sh/embed/5LmpA9kMbbsTN4B3ZyIb"
+                            style="border:0; transform: scale(1); overflow:auto;"
+                            sandbox="allow-scripts allow-same-origin">
+                          </iframe>
+                        </code>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="doc__section" id="modal">
+                <h3 class="doc__title margin-bottom--small">Modal</h3>
+                <p class="doc__description">Alerts are available in 5 types- success alert, error alert, warning alert, primary alert, secondary alert.</p>
+
+                <div class="container--90 margin--large">
+                    <div class="modal__container--plain">
+                        <div class="modal__header margin--medium">
+                            <h3 class="text--large">modal Header</h3>
+                        </div>
+                        <div class="modal__body margin--medium">
+                            <p class="text--medium">This is a simple modal</p>
+                        </div>
+                        <div class="modal__actions">
+                            <button class="btn btn--primary border--grey">Accept</button>
+                            <button class="btn btn--secondary">Decline</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container--90 margin--large">
+                    <button id="modal-demo" class="btn btn--secondary">Demo</button>
+            
+                    <div class="modal__overlay hide">
+                        <div class="modal__container">
+                            
+                            <div class="modal__header container__flex margin--medium">
+                                <h3 class="text--large">modal Header</h3>
+                                <i class="fas fa-times modal__close"></i>
+                            </div>
+                            <div class="modal__body margin--medium">
+                                <p class="text--medium">This is a simple modal</p>
+                            </div>
+                            <div class="modal__actions">
+                                <button class="btn btn--primary border--grey">Accept</button>
+                                <button class="btn btn--secondary">Decline</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container--90">
+                    <div class="code--template">
+                        <code >
+                            <iframe
+                            src="https://carbon.now.sh/embed/5LmpA9kMbbsTN4B3ZyIb"
+                            style="border:0; transform: scale(1); overflow:auto;"
+                            sandbox="allow-scripts allow-same-origin">
+                          </iframe>
+                        </code>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="doc__section" id="rating">
+                <h3 class="doc__title margin-bottom--small">Rating</h3>
+                <p class="doc__description">Alerts are available in 5 types- success alert, error alert, warning alert, primary alert, secondary alert.</p>
+
+                <div class="container--80 padding--medium border--grey margin--large">
+
+                    <div class="star-rating--plain">
+                        <label class="star-filled"></label>
+                        <label class="star-filled"></label>
+                        <label class="star-filled"></label>
+                        <label class="star"></label>
+                        <label class="star"></label>
+                    </div>
+            
+                    <div class="star-rating">
+                        <input type="radio" name="stars" id="star5" value="5"/>
+                        <label for="star5"></label>
+            
+                        <input type="radio" name="stars" id="star4" value="4"/>
+                        <label for="star4"></label>
+            
+                        <input type="radio" name="stars" id="star3" value="3"/>
+                        <label for="star3"></label>
+            
+                        <input type="radio" name="stars" id="star2" value="2"/>
+                        <label for="star2"></label>
+            
+                        <input type="radio" name="stars" id="star1" value="1"/>
+                        <label for="star1"></label>
+                    </div>
+                    
+                </div>
+
+                <div class="container--90">
+                    <div class="code--template">
+                        <code >
+                            <iframe
+                            src="https://carbon.now.sh/embed/5LmpA9kMbbsTN4B3ZyIb"
+                            style="border:0; transform: scale(1); overflow:auto;"
+                            sandbox="allow-scripts allow-same-origin">
+                          </iframe>
+                        </code>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="doc__section" id="toasts">
+                <h3 class="doc__title margin-bottom--small">Toasts</h3>
+                <p class="doc__description">Alerts are available in 5 types- success alert, error alert, warning alert, primary alert, secondary alert.</p>
+
+                <div class="container--90 padding--large margin--large container__flex container--relative border--grey">
+                    <div class="toast-container background--success clr--primary margin-lr--medium">
+                        <p class="toast__message">This is a message</p>
+                        <i class="fas fa-times margin-lr--medium"></i>
+                    </div>
+                    <div class="toast-container  background--error clr--primary margin-lr--medium">
+                        <p class="toast__message">This is a message</p>
+                        <i class="fas fa-times margin-lr--medium"></i>
+                    </div>
+                    <div class="toast-container background--warning clr--primary margin-lr--medium">
+                        <p class="toast__message">This is a message</p>
+                        <i class="fas fa-times margin-lr--medium"></i>
+                    </div>
+                </div>
+
+                <button id="toast__demo" class="btn btn--secondary margin--large">DEMO</button>
+
+                <div class="container--90">
+                    <div class="code--template">
+                        <code >
+                            <iframe
+                            src="https://carbon.now.sh/embed/5LmpA9kMbbsTN4B3ZyIb"
+                            style="border:0; transform: scale(1); overflow:auto;"
+                            sandbox="allow-scripts allow-same-origin">
+                          </iframe>
+                        </code>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="doc__section" id="grid">
+                <h3 class="doc__title margin-bottom--small">Grid Simplified</h3>
+                <p class="doc__description">Alerts are available in 5 types- success alert, error alert, warning alert, primary alert, secondary alert.</p>
+
+                <div class="container--90 border--grey padding--large margin--large">
+                    <div class="container__grid grid--col-50-50 margin--large">
+                        <div class="height-30">
+                            <img class="img--cover" src="../Components/Images/product2.jpg" />
+                        </div>
+                        <div class="card margin--auto">
+                            <div class="card__body padding--medium">
+                                <div class="card__heading margin-bottom--medium">
+                                    <div class="container__flex--spacebetween margin-bottom--small">
+                                        <h2 class="card__title text--large">Product</h2>
+                                        <i class="far fa-heart text--large"></i>
+                                    </div>
+                                    
+                                    <h3 class="card__subtitle text--medium">Subtitle Product</h3>
+                                </div> 
+                                <div class="card__description margin-bottom--medium">
+                                    <p class="clr--secondary">Rs. 599 <span class="text--line-through"> 999 </span></p>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="card__actions">
+                                    <div class="card__actions--buttons">
+                                        <button class="btn btn--secondary btn--icon"><i class="fas fa-shopping-cart"></i>Add to Cart</button>
+                                        <button class="btn btn--primary border--grey">Buy Now</button>                 
+                                    </div>
+                                    <div class="card__actions--icons">
+                                        <i class="fas fa-share-alt"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                
+                    </div>
+            
+                    <div class="container__grid grid--col-70-30 margin--large">
+                        <div class="height-30">
+                            <img class="img--cover" src="../Components/Images/product2.jpg" />
+                        </div>
+                        <div class="margin--auto">
+                            <h3 class="text--center">Hello World!</h3>
+                            <p class="text--large">Welcome to the store</p>
+                        </div>
+                
+                    </div>
+            
+                    <div class="container__grid grid-col-3">
+                        <div class="card margin--medium">
+                            <div class="card__image--container badge-content">
+                                <img class="card__image " src="../Components/Images/product2.jpg" />
+                                <p class="badge badge--large badge-card-tr">Best Seller</p>
+                            </div>
+                            <div class="card__body padding--medium">
+                                <div class="card__heading margin-bottom--medium">
+                                    <div class="container__flex--spacebetween margin-bottom--small">
+                                        <h2 class="card__title text--large">Product</h2>
+                                        <i class="far fa-heart text--large"></i>
+                                    </div>
+                                    
+                                    <h3 class="card__subtitle text--medium">Subtitle Product</h3>
+                                </div> 
+                                <div class="card__description margin-bottom--medium">
+                                    <p class="clr--secondary">Rs. 599 <span class="text--line-through"> 999 </span></p>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="card__actions">
+                                    <div class="card__actions--buttons">
+                                        <button class="btn btn--secondary btn--icon"><i class="fas fa-shopping-cart"></i>Add to Cart</button>
+                                        <button class="btn btn--primary border--grey">Buy Now</button>                 
+                                    </div>
+                                    <div class="card__actions--icons">
+                                        <i class="fas fa-share-alt"></i>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="card margin--medium">
+                            <div class="card__image--container badge-content">
+                                <img class="card__image " src="../Components/Images/product2.jpg" />
+                                <p class="badge badge--large badge-card-tr">Best Seller</p>
+                            </div>
+                            <div class="card__body padding--medium">
+                                <div class="card__heading margin-bottom--medium">
+                                    <div class="container__flex--spacebetween margin-bottom--small">
+                                        <h2 class="card__title text--large">Product</h2>
+                                        <i class="far fa-heart text--large"></i>
+                                    </div>
+                                    
+                                    <h3 class="card__subtitle text--medium">Subtitle Product</h3>
+                                </div> 
+                                <div class="card__description margin-bottom--medium">
+                                    <p class="clr--secondary">Rs. 599 <span class="text--line-through"> 999 </span></p>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="card__actions">
+                                    <div class="card__actions--buttons">
+                                        <button class="btn btn--secondary btn--icon"><i class="fas fa-shopping-cart"></i>Add to Cart</button>
+                                        <button class="btn btn--primary border--grey">Buy Now</button>                 
+                                    </div>
+                                    <div class="card__actions--icons">
+                                        <i class="fas fa-share-alt"></i>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="card margin--medium">
+                            <div class="card__image--container badge-content">
+                                <img class="card__image " src="../Components/Images/product2.jpg" />
+                                <p class="badge badge--large badge-card-tr">Best Seller</p>
+                            </div>
+                            <div class="card__body padding--medium">
+                                <div class="card__heading margin-bottom--medium">
+                                    <div class="container__flex--spacebetween margin-bottom--small">
+                                        <h2 class="card__title text--large">Product</h2>
+                                        <i class="far fa-heart text--large"></i>
+                                    </div>
+                                    
+                                    <h3 class="card__subtitle text--medium">Subtitle Product</h3>
+                                </div> 
+                                <div class="card__description margin-bottom--medium">
+                                    <p class="clr--secondary">Rs. 599 <span class="text--line-through"> 999 </span></p>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="card__actions">
+                                    <div class="card__actions--buttons">
+                                        <button class="btn btn--secondary btn--icon"><i class="fas fa-shopping-cart"></i>Add to Cart</button>
+                                        <button class="btn btn--primary border--grey">Buy Now</button>                 
+                                    </div>
+                                    <div class="card__actions--icons">
+                                        <i class="fas fa-share-alt"></i>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+            
+                    
+                </div>
+
+                <div class="container--90">
+                    <div class="code--template">
+                        <code >
+                            <iframe
+                            src="https://carbon.now.sh/embed/5LmpA9kMbbsTN4B3ZyIb"
+                            style="border:0; transform: scale(1); overflow:auto;"
+                            sandbox="allow-scripts allow-same-origin">
+                          </iframe>
+                        </code>
+                    </div>
+                </div>
+                
+            </div>
         </div>
     </div>
 
@@ -103,5 +804,8 @@
             <p class="text--medium">Copyrights © 2022 Stylish Book UI</p>
         </div>
     </div>
+
+    <script src="../Components/JS/script.js"></script>
+    <script src="document.js"></script>
 </body>
 </html>
