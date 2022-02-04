@@ -65,6 +65,18 @@
 
 }
 
+[data-theme="light"] {
+  --clr-primary: #FFFFFF;
+  --clr-primary-dark: #D1D5DB;
+  --clr-secondary: #dc2626;
+  --clr-secondary-dark: #991b1b;
+
+  --text-clr-primary: #000000;
+  --text-clr-secondary: #FFFFFF;
+
+}
+
+
 /* Reset Class */
 
 *,

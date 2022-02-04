@@ -88,26 +88,26 @@
 
 .btn--float-br{
     position: fixed;
-    bottom: 10%;
-    right: 10%;
+    bottom: 5%;
+    right: 5%;
 }
 
 .btn--float-tr{
     position: fixed;
-    top: 10%;
-    right: 10%;
+    top: 5%;
+    right: 5%;
 }
 
 .btn--float-bl{
     position: fixed;
-    bottom: 10%;
-    left: 10%;
+    bottom: 5%;
+    left: 5%;
 }
 
 .btn--float-tr{
     position: fixed;
-    top: 10%;
-    right: 10%;
+    top: 5%;
+    right: 5%;
 }
 
 .btn--icon i{

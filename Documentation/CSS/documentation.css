@@ -66,6 +66,12 @@
     display: none;
 }
 
+.float-top{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+
 @media only screen and (max-width: 600px) {
 
     .doc__main{

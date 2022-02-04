@@ -47,6 +47,20 @@
     
 }
 
+.moon span{
+    display: none;
+    font-weight: 600;
+}
+
+.sun span{
+    display: none;
+    font-weight: 600;
+}
+
+.btn--icon i{
+    margin-right: 0;
+}
+
 @media only screen and (max-width: 600px) {
 
     .container--90{
@@ -73,5 +87,18 @@
         display: flex;
         justify-content: center;
     }
+
+    .moon span{
+        display: inline;
+    }
+    
+    .sun span{
+        display: inline;
+    }
+
+    .btn--icon i{
+        margin-right: var(--margin-medium);
+    }
+    
 
 }

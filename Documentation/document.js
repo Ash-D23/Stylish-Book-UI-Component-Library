@@ -13,3 +13,39 @@ if(doc__menu){
     })
 }
 
+let moon = document.querySelector('.moon');
+let sun = document.querySelector('.sun');
+
+if(moon){
+    moon.addEventListener('click', ()=>{
+        console.log("moon")
+        document.body.setAttribute('data-theme', 'dark');
+        localStorage.setItem("datatheme", "dark");
+        moon.classList.toggle('hide')
+        sun.classList.toggle('hide')
+    })
+}
+
+if(sun){
+    sun.addEventListener('click', ()=>{
+        console.log('sun')
+        document.body.setAttribute('data-theme', 'light');
+        localStorage.setItem("datatheme", "light");
+        moon.classList.toggle('hide')
+        sun.classList.toggle('hide')
+    })
+}
+
+window.onload = function(){
+    let theme = localStorage.getItem("datatheme");
+    console.log(theme)
+    if(theme === 'dark'){
+        document.body.setAttribute('data-theme', 'dark');
+        sun.classList.remove('hide')
+    }else{
+        document.body.setAttribute('data-theme', 'light');
+        moon.classList.remove('hide')
+    }
+}
+
+

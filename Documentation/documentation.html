@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="../Components/stylishbook.css" />
     <link rel="stylesheet" href="CSS/documentation.css" />
 </head>
-<body data-theme="dark">
-    <div class="container">
+<body>
+    <div id="nav"class="container">
         <div class="navbar__container--plain padding--medium">
             <div class="navbar__heading-container">
                 <div class="container__flex--center">
@@ -32,6 +32,8 @@
                 <li class="navbar__item">
                     <a href="#">Documentation</a>
                 </li>
+                <button class="btn btn--secondary btn--icon padding--medium margin-top--small moon hide"><i class="fas fa-moon text--medium"></i><span>Dark Mode</span></button>
+                <button class="btn btn--secondary btn--icon padding--medium margin-top--small sun hide"><i class="fas fa-sun text--medium"></i><span>Light Mode</span></button>
             </ul>
         </div>
     </div>
@@ -42,7 +44,7 @@
                 <h3 class="drawer__title doc__title margin-bottom--small">Components</h3>
             </div>
             <div class="drawer__navigation text-clr--primary">
-                <div class="drawer__navigation-items active">
+                <div class="drawer__navigation-items">
                     <a href="#alert"><p>Alerts</p></a>
                 </div>
                 <div class="drawer__navigation-items">
@@ -120,7 +122,7 @@
                     <div class="code--template">
                         <code >
                             <iframe
-                            src="https://carbon.now.sh/embed/5LmpA9kMbbsTN4B3ZyIb"
+                            src="https://carbon.now.sh/embed/YOD6InGV8AKjIP1zDZBP"
                             style="border:0; transform: scale(1); overflow:auto;"
                             sandbox="allow-scripts allow-same-origin">
                           </iframe>
@@ -132,7 +134,7 @@
 
             <div class="doc__section" id="button">
                 <h3 class="doc__title margin-bottom--small">Buttons</h3>
-                <p class="doc__description">Alerts are available in 5 types- success alert, error alert, warning alert, primary alert, secondary alert.</p>
+                <p class="doc__description">Buttons comes in many styles - outline, solid, link, icon buttons which can be used for actions in forms, dialogs and more</p>
 
                 <div class="container--90 border--grey margin--large padding--medium">
                     <button class="btn btn--outline margin-top--medium">Outline</button>
@@ -146,7 +148,7 @@
                     <div class="code--template">
                         <code >
                             <iframe
-                            src="https://carbon.now.sh/embed/5LmpA9kMbbsTN4B3ZyIb"
+                            src="https://carbon.now.sh/embed/m21c0i0OnHkpVdrGp9eh"
                             style="border:0; transform: scale(1); overflow:auto;"
                             sandbox="allow-scripts allow-same-origin">
                           </iframe>
@@ -158,7 +160,7 @@
 
             <div class="doc__section" id="avatar">
                 <h3 class="doc__title margin-bottom--small">Avatar</h3>
-                <p class="doc__description">Alerts are available in 5 types- success alert, error alert, warning alert, primary alert, secondary alert.</p>
+                <p class="doc__description">Avatar is available in three different sizes - large, medium and small. It can be used in User's Profile Page showing user's image</p>
 
                 <div class="container--90 container__flex--center container__flex--wrap border--grey margin--large padding--medium">
                     <div class="avatar avatar--large margin-lr--medium">
@@ -188,7 +190,7 @@
                     <div class="code--template">
                         <code >
                             <iframe
-                            src="https://carbon.now.sh/embed/5LmpA9kMbbsTN4B3ZyIb"
+                            src="https://carbon.now.sh/embed/28R107uHRWzuYMLK44WB"
                             style="border:0; transform: scale(1); overflow:auto;"
                             sandbox="allow-scripts allow-same-origin">
                           </iframe>
@@ -200,7 +202,7 @@
 
             <div class="doc__section" id="badge">
                 <h3 class="doc__title margin-bottom--small">Badge</h3>
-                <p class="doc__description">Alerts are available in 5 types- success alert, error alert, warning alert, primary alert, secondary alert.</p>
+                <p class="doc__description">Badges have different use cases like notification number, status for avatar etc. Badges scale to match the size of the immediate parent element by using relative font sizing and em units.</p>
 
                 <div class="container--90 container__flex--center border--grey margin--large padding--medium">
                     <span class="badge badge--round badge--small margin-lr--medium">1</span>
@@ -253,7 +255,7 @@
                     <div class="code--template">
                         <code >
                             <iframe
-                            src="https://carbon.now.sh/embed/5LmpA9kMbbsTN4B3ZyIb"
+                            src="https://carbon.now.sh/embed/TJSMqrcugMnALVa7SkGP"
                             style="border:0; transform: scale(1); overflow:auto;"
                             sandbox="allow-scripts allow-same-origin">
                           </iframe>
@@ -265,7 +267,8 @@
 
             <div class="doc__section" id="cards">
                 <h3 class="doc__title margin-bottom--small">Cards</h3>
-                <p class="doc__description">Alerts are available in 5 types- success alert, error alert, warning alert, primary alert, secondary alert.</p>
+                <p class="doc__description">A card is a flexible and extensible content container. Cards are available in different forms - Vertical/Horizontal cards
+, Text only cards, Cards with text overlay, Cards with badges etc.</p>
 
                 <div class="container__flex--center container__flex--wrap border--grey">
                     <div class="card margin--medium">
@@ -438,7 +441,7 @@
                     <div class="code--template">
                         <code >
                             <iframe
-                            src="https://carbon.now.sh/embed/5LmpA9kMbbsTN4B3ZyIb"
+                            src="https://carbon.now.sh/embed/4dKKdgqzGAovRmQGDe6G"
                             style="border:0; transform: scale(1); overflow:auto;"
                             sandbox="allow-scripts allow-same-origin">
                           </iframe>
@@ -450,7 +453,7 @@
 
             <div class="doc__section" id="image">
                 <h3 class="doc__title margin-bottom--small">Images</h3>
-                <p class="doc__description">Alerts are available in 5 types- success alert, error alert, warning alert, primary alert, secondary alert.</p>
+                <p class="doc__description">Images can be responsive to fit the parent's width, and also can be customised to be round shaped</p>
 
                 <div class="container--80  margin-tb--large ">
                     <img src="../Components/Images/batman.jpg" class="img--responsive height-30 img--cover" />
@@ -464,7 +467,7 @@
                     <div class="code--template">
                         <code >
                             <iframe
-                            src="https://carbon.now.sh/embed/5LmpA9kMbbsTN4B3ZyIb"
+                            src="https://carbon.now.sh/embed/851R6XZDMyqYBF5ipX5t"
                             style="border:0; transform: scale(1); overflow:auto;"
                             sandbox="allow-scripts allow-same-origin">
                           </iframe>
@@ -476,7 +479,7 @@
 
             <div class="doc__section" id="input">
                 <h3 class="doc__title margin-bottom--small">Form & Input</h3>
-                <p class="doc__description">Alerts are available in 5 types- success alert, error alert, warning alert, primary alert, secondary alert.</p>
+                <p class="doc__description">Style your Form Fields & input with validation using form-label and form-field class. For error styling use form--error class</p>
 
                 <div class="container--90 border--grey margin--large">
                     <form class="form">
@@ -524,7 +527,7 @@
                     <div class="code--template">
                         <code >
                             <iframe
-                            src="https://carbon.now.sh/embed/5LmpA9kMbbsTN4B3ZyIb"
+                            src="https://carbon.now.sh/embed/6zWIeD4USoo9rGxgSjd4"
                             style="border:0; transform: scale(1); overflow:auto;"
                             sandbox="allow-scripts allow-same-origin">
                           </iframe>
@@ -535,8 +538,8 @@
             </div>
 
             <div class="doc__section" id="text-utils">
-                <h3 class="doc__title margin-bottom--small">Text utilities</h3>
-                <p class="doc__description">Alerts are available in 5 types- success alert, error alert, warning alert, primary alert, secondary alert.</p>
+                <h3 class="doc__title margin-bottom--small">Text Utilities</h3>
+                <p class="doc__description">Text Utilities easily help you to align text and set sizes like large, medium and small to your headings and paragraphs. For heading u can use h1, h2, h3, h4, h5, h6 elements</p>
 
                 <div class="container--90 padding--medium border--grey margin--large">
                     <h1 class="margin--medium">H1 Heading</h1>
@@ -544,6 +547,8 @@
                     <h3 class="margin--medium">H3 Heading</h3>
                     <h4 class="margin--medium">H4 Heading</h4>
                 </div>
+
+                <p class="doc__description">To change size use text--large, text--medium and text--small class and to align the text add text--center, text--left, text--right class to wrapper element</p>
             
                 <div class="container--90 padding--medium border--grey margin--large">
                     <p class="text--large margin-bottom--medium">Paragraph Large</p>
@@ -555,7 +560,7 @@
                     <div class="code--template">
                         <code >
                             <iframe
-                            src="https://carbon.now.sh/embed/5LmpA9kMbbsTN4B3ZyIb"
+                            src="https://carbon.now.sh/embed/BGx4VNcS9W6hImv1P3GI"
                             style="border:0; transform: scale(1); overflow:auto;"
                             sandbox="allow-scripts allow-same-origin">
                           </iframe>
@@ -567,7 +572,7 @@
 
             <div class="doc__section" id="list">
                 <h3 class="doc__title margin-bottom--small">List</h3>
-                <p class="doc__description">Alerts are available in 5 types- success alert, error alert, warning alert, primary alert, secondary alert.</p>
+                <p class="doc__description">Lists can be stacked or spaced in same block. It can be used at so many places, navigation bar, stacked notifications,</p>
 
                 <div class="container--90 padding--medium border--grey margin--large">
                     <ul class="styled-list styled-list--stacked">
@@ -589,7 +594,7 @@
                     <div class="code--template">
                         <code >
                             <iframe
-                            src="https://carbon.now.sh/embed/5LmpA9kMbbsTN4B3ZyIb"
+                            src="https://carbon.now.sh/embed/D3ZZ4JISvsvdW9dgRcOr"
                             style="border:0; transform: scale(1); overflow:auto;"
                             sandbox="allow-scripts allow-same-origin">
                           </iframe>
@@ -601,7 +606,7 @@
 
             <div class="doc__section" id="navigation">
                 <h3 class="doc__title margin-bottom--small">Navigation</h3>
-                <p class="doc__description">Alerts are available in 5 types- success alert, error alert, warning alert, primary alert, secondary alert.</p>
+                <p class="doc__description">Responsive navigation bar made easy. Wrap your navbar heading and list items inside navbar__container class.</p>
 
                 <div class="container--90 margin--large border-grey">
                     <div class="navbar__container padding--medium">
@@ -631,7 +636,7 @@
                     <div class="code--template">
                         <code >
                             <iframe
-                            src="https://carbon.now.sh/embed/5LmpA9kMbbsTN4B3ZyIb"
+                            src="https://carbon.now.sh/embed/JzD3EmWPlcQ9W05PEXZB"
                             style="border:0; transform: scale(1); overflow:auto;"
                             sandbox="allow-scripts allow-same-origin">
                           </iframe>
@@ -643,10 +648,10 @@
 
             <div class="doc__section" id="drawer">
                 <h3 class="doc__title margin-bottom--small">Drawer</h3>
-                <p class="doc__description">Alerts are available in 5 types- success alert, error alert, warning alert, primary alert, secondary alert.</p>
+                <p class="doc__description">Navigation drawers provide access to destinations in your app.</p>
 
-                <div class="container--90 container__flex--center border--grey margin--large padding--medium">
-                    <div class="drawer__container clr--violet padding--medium">
+                <div class="container--90 container__flex--center margin--large">
+                    <div class="drawer__container clr--violet padding--medium border--grey">
                         <div class="drawer__heading">
                             <h2 class="drawer__title text--large margin-bottom--small">Title</h2>
                             <h4 class="drawer__subtitles text--medium">Subtitle</h4>
@@ -676,7 +681,7 @@
                     <div class="code--template">
                         <code >
                             <iframe
-                            src="https://carbon.now.sh/embed/5LmpA9kMbbsTN4B3ZyIb"
+                            src="https://carbon.now.sh/embed/bbOunhz3Aw9YtKGwEyAB"
                             style="border:0; transform: scale(1); overflow:auto;"
                             sandbox="allow-scripts allow-same-origin">
                           </iframe>
@@ -688,7 +693,7 @@
 
             <div class="doc__section" id="modal">
                 <h3 class="doc__title margin-bottom--small">Modal</h3>
-                <p class="doc__description">Alerts are available in 5 types- success alert, error alert, warning alert, primary alert, secondary alert.</p>
+                <p class="doc__description">Modals are positioned over everything else in the document and remove scroll from the page. It gets closed only with close button on modal pop-up. Wrap your modal container inside modal__overlay div and create a background overlay for the modal content</p>
 
                 <div class="container--90 margin--large">
                     <div class="modal__container--plain">
@@ -730,7 +735,7 @@
                     <div class="code--template">
                         <code >
                             <iframe
-                            src="https://carbon.now.sh/embed/5LmpA9kMbbsTN4B3ZyIb"
+                            src="https://carbon.now.sh/embed/DLCdfRMUUz0chVbhTMrj"
                             style="border:0; transform: scale(1); overflow:auto;"
                             sandbox="allow-scripts allow-same-origin">
                           </iframe>
@@ -742,7 +747,7 @@
 
             <div class="doc__section" id="rating">
                 <h3 class="doc__title margin-bottom--small">Rating</h3>
-                <p class="doc__description">Alerts are available in 5 types- success alert, error alert, warning alert, primary alert, secondary alert.</p>
+                <p class="doc__description">Rating components can be used as read-only Rating or in reviews section as input rating out of 5 stars.</p>
 
                 <div class="container--80 padding--medium border--grey margin--large">
 
@@ -777,7 +782,7 @@
                     <div class="code--template">
                         <code >
                             <iframe
-                            src="https://carbon.now.sh/embed/5LmpA9kMbbsTN4B3ZyIb"
+                            src="https://carbon.now.sh/embed/WmKRun5NHwRACcjoxWj2"
                             style="border:0; transform: scale(1); overflow:auto;"
                             sandbox="allow-scripts allow-same-origin">
                           </iframe>
@@ -789,7 +794,7 @@
 
             <div class="doc__section" id="toasts">
                 <h3 class="doc__title margin-bottom--small">Toasts</h3>
-                <p class="doc__description">Alerts are available in 5 types- success alert, error alert, warning alert, primary alert, secondary alert.</p>
+                <p class="doc__description">Toasts are used to notify messages - success, error or warning messages to users. They’re easy to align and position.</p>
 
                 <div class="container--90 padding--large margin--large container__flex--center container__flex--wrap border--grey">
                     <div class="toast-container background--success clr--primary margin--medium">
@@ -812,7 +817,7 @@
                     <div class="code--template">
                         <code >
                             <iframe
-                            src="https://carbon.now.sh/embed/5LmpA9kMbbsTN4B3ZyIb"
+                            src="https://carbon.now.sh/embed/Wl87PVT8xJmXvnpCKndw"
                             style="border:0; transform: scale(1); overflow:auto;"
                             sandbox="allow-scripts allow-same-origin">
                           </iframe>
@@ -824,7 +829,12 @@
 
             <div class="doc__section" id="grid">
                 <h3 class="doc__title margin-bottom--small">Grid Simplified</h3>
-                <p class="doc__description">Alerts are available in 5 types- success alert, error alert, warning alert, primary alert, secondary alert.</p>
+                <p class="doc__description">Grids are used when you want to divide your container into rows and columns and layout a page or section. Below are some examples of grid use grid__container class to wrap your container into a grid</p>
+                <ul class="styled-list styled-list--stacked">
+                    <li>Grid 50 50 Layout</li>
+                    <li>Grid 70 30 Layout</li>
+                    <li>Grid 3 Column Layout</li>
+                </ul>
 
                 <div class="container--90 border--grey padding--large margin--large">
                     <div class="container__grid grid--col-50-50">
@@ -950,7 +960,7 @@
                     <div class="code--template">
                         <code >
                             <iframe
-                            src="https://carbon.now.sh/embed/5LmpA9kMbbsTN4B3ZyIb"
+                            src="https://carbon.now.sh/embed/iXLLg05l2RaePWjk8x4M"
                             style="border:0; transform: scale(1); overflow:auto;"
                             sandbox="allow-scripts allow-same-origin">
                           </iframe>
@@ -961,6 +971,8 @@
             </div>
         </div>
     </div>
+
+    <button class="btn btn--secondary btn--float-br padding--medium text--large float-top"><a href="#nav"><i class="fas fa-arrow-up"></i></a></button>
 
     <div class="footer__container padding--medium">
         <div class="margin-tb--large">
