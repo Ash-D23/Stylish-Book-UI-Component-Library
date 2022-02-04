@@ -39,6 +39,7 @@
 .footer__icons i{
     font-size: var(--text-large);
     margin: 0 var(--margin-medium);
+    color: #ffffff;
 }
 
 .footer__icons i:hover{

@@ -72,6 +72,10 @@
     border-radius: 50%;
 }
 
+.float-top i{
+    color: var(--text-clr-secondary)
+}
+
 @media only screen and (max-width: 600px) {
 
     .doc__main{

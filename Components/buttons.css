@@ -113,3 +113,7 @@
 .btn--icon i{
     margin-right: var(--margin-small);
 }
+
+.btn--secondary a{
+    color: var(--text-clr-secondary);
+}
