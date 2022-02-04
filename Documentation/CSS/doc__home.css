@@ -1,0 +1,77 @@
+.navbar__container .navbar__heading-container{
+    font-size: 2rem;
+    font-family: var(--font-family-secondary);
+}
+
+.navbar__container .navbar__item{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.about__description h2{
+    font-family: var(--font-family-secondary);
+}
+
+.about__img{
+    max-width: 65rem;
+    max-height: 40rem;
+}
+
+.install{
+    min-height: 30vh;
+    padding: var(--padding-medium);
+}
+
+.install h2{
+    font-family: var(--font-family-secondary);
+}
+
+.footer__container{
+    background-color: var(--clr-secondary-dark);
+    color: var(--text-clr-secondary);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__icons i{
+    font-size: var(--text-large);
+    margin: 0 var(--margin-medium);
+}
+
+.footer__icons i:hover{
+    cursor: pointer;
+    font-size: 2.6rem;
+    
+}
+
+@media only screen and (max-width: 600px) {
+
+    .container--90{
+        max-width: 100%;
+    }
+    
+    .about h2{
+        text-align: center;
+    }
+
+    .about p{
+        text-align: center;
+    }
+
+    .install p{
+        text-align: center;
+    }
+
+    .install h2{
+        text-align: center;
+    }
+
+    .btn--container{
+        display: flex;
+        justify-content: center;
+    }
+
+}

@@ -12,10 +12,12 @@
 
 .grid-col-3{
     grid-template-columns: repeat(3, 1fr);
+    overflow-x: scroll;
 }
 
 .grid-col-4{
     grid-template-columns: repeat(4, 1fr);
+    overflow-x: scroll;
 }
 
 .grid--row-50-50{

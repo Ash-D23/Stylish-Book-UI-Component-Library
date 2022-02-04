@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../Components/stylishbook.css" />
     <link rel="stylesheet" href="CSS/documentation.css" />
 </head>
-<body>
+<body data-theme="dark">
     <div class="container">
         <div class="navbar__container--plain padding--medium">
             <div class="navbar__heading-container">
@@ -27,10 +27,10 @@
             </div>
             <ul class="navbar__list-container text--medium margin-top--small">
                 <li class="navbar__item ">
-                    <a>Home</a>
+                    <a href="../index.html">Home</a>
                 </li>
                 <li class="navbar__item">
-                    <a>Documentation</a>
+                    <a href="#">Documentation</a>
                 </li>
             </ul>
         </div>
@@ -39,54 +39,57 @@
     <div class="doc__main">
         <div class="drawer__container doc__drawer height-100 container--sticky clr--secondary padding--medium">
             <div class="drawer__heading">
-                <h3 class="drawer__title margin-bottom--small">Components</h3>
+                <h3 class="drawer__title doc__title margin-bottom--small">Components</h3>
             </div>
             <div class="drawer__navigation text-clr--primary">
                 <div class="drawer__navigation-items active">
-                    <p>Alert</p>
+                    <a href="#alert"><p>Alerts</p></a>
                 </div>
                 <div class="drawer__navigation-items">
                     <a href="#button"><p>Button</p></a>
                 </div>
                 <div class="drawer__navigation-items">
-                    <p>Avatar</p>
+                    <a href="#avatar"><p>Avatar</p></a>
                 </div>
                 <div class="drawer__navigation-items">
-                    <p>Badge</p>
+                    <a href="#badge"><p>Badge</p></a>
                 </div>
                 <div class="drawer__navigation-items">
-                    <p>Image</p>
+                    <a href="#cards"><p>Cards</p></a>
                 </div>
                 <div class="drawer__navigation-items">
-                    <p>Form & Input</p>
+                    <a href="#image"><p>Image</p></a>
                 </div>
                 <div class="drawer__navigation-items">
-                    <p>Text Utilities</p>
+                    <a href="#input"><p>Form & Input</p></a>
                 </div>
                 <div class="drawer__navigation-items">
-                    <p>List</p>
+                    <a href="#text-utils"><p>Text Utilities</p></a>
                 </div>
                 <div class="drawer__navigation-items">
-                    <p>Navigation</p>
+                    <a href="#list"><p>List</p></a>
                 </div>
                 <div class="drawer__navigation-items">
-                    <p>Drawer</p>
+                    <a href="#navigation"><p>Navigation</p></a>
                 </div>
                 <div class="drawer__navigation-items">
-                    <p>Modal</p>
+                    <a href="#drawer"><p>Drawer</p></a>
                 </div>
                 <div class="drawer__navigation-items">
-                    <p>Rating</p>
+                    <a href="#modal"><p>Modal</p></a>
                 </div>
                 <div class="drawer__navigation-items">
-                    <p>Toasts</p>
+                    <a href="#rating"><p>Rating</p></a>
                 </div>
                 <div class="drawer__navigation-items">
-                    <p>Simplified Grid</p>
+                    <a href="#toasts"><p>Toasts</p></a>
+                </div>
+                <div class="drawer__navigation-items">
+                    <a href="#grid"><p>Simplified Grid</p></a>
                 </div>
             </div>
         </div>
-        <div class="main padding--medium">
+        <div class="main">
             <div class="doc__section" id="alert">
                 <h3 class="doc__title margin-bottom--small">Alerts</h3>
                 <p class="doc__description">Alerts are available in 5 types- success alert, error alert, warning alert, primary alert, secondary alert.</p>
@@ -132,11 +135,11 @@
                 <p class="doc__description">Alerts are available in 5 types- success alert, error alert, warning alert, primary alert, secondary alert.</p>
 
                 <div class="container--90 border--grey margin--large padding--medium">
-                    <button class="btn btn--outline">Outline</button>
-                    <button class="btn btn--primary">Primary</button>
-                    <button class="btn btn--secondary">Secondary</button>
-                    <a class="btn btn--link">Link</a>
-                    <button class="btn btn--secondary btn--icon"><i class="fab fa-github"></i>Click</button>
+                    <button class="btn btn--outline margin-top--medium">Outline</button>
+                    <button class="btn btn--primary margin-top--medium">Primary</button>
+                    <button class="btn btn--secondary margin-top--medium">Secondary</button>
+                    <a class="btn btn--link margin-top--medium">Link</a>
+                    <button class="btn btn--secondary btn--icon margin-top--medium"><i class="fab fa-github"></i>Click</button>
                 </div>
 
                 <div class="container--90">
@@ -157,7 +160,7 @@
                 <h3 class="doc__title margin-bottom--small">Avatar</h3>
                 <p class="doc__description">Alerts are available in 5 types- success alert, error alert, warning alert, primary alert, secondary alert.</p>
 
-                <div class="container--90 container__flex--center border--grey margin--large padding--medium">
+                <div class="container--90 container__flex--center container__flex--wrap border--grey margin--large padding--medium">
                     <div class="avatar avatar--large margin-lr--medium">
                         <img src="../Components/Images/avatar-image1.jpg" />
                     </div>
@@ -169,7 +172,7 @@
                     </div>
                 </div>
             
-                <div class="container--90 container__flex--center border--grey margin--large padding--medium">
+                <div class="container--90 container__flex--center container__flex--wrap border--grey margin--large padding--medium">
                     <div class="avatar avatar--text avatar--secondary avatar--large margin-lr--medium">
                         AB
                     </div>
@@ -205,27 +208,27 @@
                     <span class="badge badge--round badge--large margin-lr--medium">96</span>
                 </div>
             
-                <div class="container--90 container__flex--center border--grey margin--large padding--medium">
-                    <div class="badge-content margin-lr--medium">
+                <div class="container--90 container__flex--center container__flex--wrap border--grey margin--large padding--medium">
+                    <div class="badge-content margin--medium">
                         <p>This is a text</p>
                         <div class="badge badge--round badge-topleft badge--small"></div>
                     </div>
-                    <div class="badge-content margin-lr--medium">
+                    <div class="badge-content margin--medium">
                         <button class="btn btn--secondary">Secondary</button>
                         <div class="badge badge--round badge-topleft badge--small badge--border-white"></div>
                     </div>
             
-                    <p class="badge badge--medium margin-lr--medium">Text</p>
+                    <p class="badge badge--large margin--medium">Text</p>
             
-                    <div class="badge-content margin-lr--medium">
-                        <i class="fas fa-shopping-cart"></i>
-                        <div class="badge badge--round badge-topright badge--small">23</div>
+                    <div class="badge-content margin--medium">
+                        <i class="fas fa-shopping-cart text--large"></i>
+                        <div class="badge badge--round badge-topright badge--medium">23</div>
                     </div>
             
-                    <div class="badge badge--round badge--large margin-lr--medium"><i class="fas fa-shopping-cart"></i></div>
+                    <div class="badge badge--round badge--large margin--medium"><i class="fas fa-shopping-cart"></i></div>
                 </div>
             
-                <div class="container--90 container__flex--center border--grey margin--large padding--medium">
+                <div class="container--90 container__flex--center container__flex--wrap border--grey margin--large padding--medium">
                     <div class="badge-content margin-lr--medium">
                         <div class="avatar avatar--large">
                             <img src="../Components/Images/avatar-image1.jpg" />
@@ -260,15 +263,200 @@
                 
             </div>
 
+            <div class="doc__section" id="cards">
+                <h3 class="doc__title margin-bottom--small">Cards</h3>
+                <p class="doc__description">Alerts are available in 5 types- success alert, error alert, warning alert, primary alert, secondary alert.</p>
+
+                <div class="container__flex--center container__flex--wrap border--grey">
+                    <div class="card margin--medium">
+                        <div class="card__image--container badge-content">
+                            <img class="card__image " src="../Components/Images/product2.jpg" />
+                            <p class="badge badge--large badge-card-tr">Best Seller</p>
+                        </div>
+                        <div class="card__body padding--medium">
+                            <div class="card__heading margin-bottom--medium">
+                                <div class="container__flex--spacebetween margin-bottom--small">
+                                    <h2 class="card__title text--large">Product</h2>
+                                    <i class="far fa-heart text--large"></i>
+                                </div>
+                                
+                                <h3 class="card__subtitle text--medium">Subtitle Product</h3>
+                            </div> 
+                            <div class="card__description margin-bottom--medium">
+                                <p class="clr--secondary">Rs. 599 <span class="text--line-through"> 999 </span></p>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                            </div>
+                            <div class="card__actions">
+                                <div class="card__actions--buttons">
+                                    <button class="btn btn--secondary btn--icon"><i class="fas fa-shopping-cart"></i>Add to Cart</button>
+                                    <button class="btn btn--primary border--grey">Buy Now</button>                 
+                                </div>
+                                <div class="card__actions--icons">
+                                    <i class="fas fa-share-alt"></i>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+            
+                    <div class="card margin--medium">
+                        <div class="card__image--container container--relative">
+                            <img class="card__image " src="../Components/Images/product2.jpg" />
+                            <i class="fas fa-times clr--primary card--dismiss card-position--tr"></i>
+                        </div>
+                        <div class="card__body padding--medium">
+                            <div class="card__heading margin-bottom--medium">
+                                <div class="container__flex--spacebetween margin-bottom--small">
+                                    <h2 class="card__title text--large">Product</h2>
+                                    <i class="far fa-heart text--large"></i>
+                                </div>
+                                
+                                <h3 class="card__subtitle text--medium">Subtitle Product</h3>
+                            </div> 
+                            <div class="card__description margin-bottom--medium">
+                                <p class="clr--secondary">Rs. 599 <span class="text--line-through"> 999 </span></p>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                            </div>
+                            <div class="card__actions">
+                                <div class="card__actions--buttons">
+                                    <button class="btn btn--secondary btn--icon"><i class="fas fa-shopping-cart"></i>Add to Cart</button>
+                                    <button class="btn btn--primary border--grey">Buy Now</button>                 
+                                </div>
+                                <div class="card__actions--icons">
+                                    <i class="fas fa-share-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="card margin--medium">
+                        <div class="card__image--container container--relative">
+                            <img class="card__image image--overlay" src="../Components/Images/product2.jpg" />
+                            <div class="card__heading card-position--bl">
+                                <h2 class="card__title text--large margin-bottom--small">Product</h2>
+                                <h3 class="card__subtitle text--medium">Subtitle Product</h3>
+                            </div> 
+                            
+                        </div>
+                        <div class="card__body padding--medium">
+                            <div class="card__description margin-bottom--medium">
+                                <p class="clr--secondary">Rs. 599 <span class="text--line-through"> 999 </span></p>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                            </div>
+                            <div class="card__actions">
+                                <div class="card__actions--buttons">
+                                    <button class="btn btn--secondary btn--icon"><i class="fas fa-shopping-cart"></i>Add to Cart</button>
+                                    <button class="btn btn--primary border--grey">Buy Now</button>                 
+                                </div>
+                                <div class="card__actions--icons">
+                                    <i class="fas fa-share-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="card border--grey">
+                        <div class="card__body padding--medium">
+                            <div class="card__heading margin-bottom--medium">
+                                <div class="container__flex--spacebetween margin-bottom--small">
+                                    <h2 class="card__title text--large">Product</h2>
+                                    <i class="far fa-heart text--large"></i>
+                                </div>
+                                
+                                <h3 class="card__subtitle text--medium">Subtitle Product</h3>
+                            </div> 
+                            <div class="card__description margin-bottom--medium">
+                                <p class="clr--secondary">Rs. 599 <span class="text--line-through"> 999 </span></p>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                            </div>
+                            <div class="card__actions">
+                                <div class="card__actions--buttons">
+                                    <button class="btn btn--secondary btn--icon"><i class="fas fa-shopping-cart"></i>Add to Cart</button>
+                                    <button class="btn btn--primary border--grey">Buy Now</button>                 
+                                </div>
+                                <div class="card__actions--icons">
+                                    <i class="fas fa-share-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="card card--horizontal margin--medium border--grey">
+                        <div class="card__image--container">
+                            <img class="card__image " src="../Components/Images/product2.jpg" />
+                        </div>
+                        <div class="card__body padding--medium">
+                            <div class="card__heading margin-bottom--medium">
+                                <div class="container__flex--spacebetween margin-bottom--small">
+                                    <h2 class="card__title text--large">Product</h2>
+                                    <i class="far fa-heart text--large"></i>
+                                </div>
+                                
+                                <h3 class="card__subtitle text--medium">Subtitle Product</h3>
+                            </div> 
+                            <div class="card__description margin-bottom--medium">
+                                <p class="clr--secondary">Rs. 599 <span class="text--line-through"> 999 </span></p>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                            </div>
+                            <div class="card__actions">
+                                <div class="card__actions--buttons">
+                                    <button class="btn btn--secondary btn--icon"><i class="fas fa-shopping-cart"></i>Add to Cart</button>
+                                    <button class="btn btn--primary border--grey">Buy Now</button>                 
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+            
+                    <div class="card card--horizontal margin--medium border--grey">
+                        <div class="card__image--container">
+                            <img class="card__image " src="../Components/Images/product.jpg" />
+                        </div>
+                        <div class="card__body padding--medium">
+                            <div class="card__heading margin-bottom--medium">
+                                <div class="container__flex--spacebetween margin-bottom--small">
+                                    <h2 class="card__title text--large">Product</h2>
+                                    <i class="far fa-heart text--large"></i>
+                                </div>
+                                
+                                <h3 class="card__subtitle text--medium">Subtitle Product</h3>
+                            </div> 
+                            <div class="card__description margin-bottom--medium">
+                                <p class="clr--secondary">Rs. 599 <span class="text--line-through"> 999 </span></p>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                            </div>
+                            <div class="card__actions">
+                                <div class="card__actions--buttons">
+                                    <button class="btn btn--secondary btn--icon"><i class="fas fa-shopping-cart"></i>Add to Cart</button>
+                                    <button class="btn btn--primary border--grey">Buy Now</button>                 
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                    
+                </div>
+
+                <div class="container--90">
+                    <div class="code--template">
+                        <code >
+                            <iframe
+                            src="https://carbon.now.sh/embed/5LmpA9kMbbsTN4B3ZyIb"
+                            style="border:0; transform: scale(1); overflow:auto;"
+                            sandbox="allow-scripts allow-same-origin">
+                          </iframe>
+                        </code>
+                    </div>
+                </div>
+                
+            </div>
+
             <div class="doc__section" id="image">
                 <h3 class="doc__title margin-bottom--small">Images</h3>
                 <p class="doc__description">Alerts are available in 5 types- success alert, error alert, warning alert, primary alert, secondary alert.</p>
 
-                <div class="container--50 margin--large">
-                    <img src="../Components/Images/batman.jpg" class="img--responsive" />
+                <div class="container--80  margin-tb--large ">
+                    <img src="../Components/Images/batman.jpg" class="img--responsive height-30 img--cover" />
                 </div>
             
-                <div class="container--50 margin--large">
+                <div class="container--80  margin-tb--large">
                     <img src="../Components/Images/batman.jpg" class="img--medium img--round" />
                 </div>
 
@@ -603,16 +791,16 @@
                 <h3 class="doc__title margin-bottom--small">Toasts</h3>
                 <p class="doc__description">Alerts are available in 5 types- success alert, error alert, warning alert, primary alert, secondary alert.</p>
 
-                <div class="container--90 padding--large margin--large container__flex container--relative border--grey">
-                    <div class="toast-container background--success clr--primary margin-lr--medium">
+                <div class="container--90 padding--large margin--large container__flex--center container__flex--wrap border--grey">
+                    <div class="toast-container background--success clr--primary margin--medium">
                         <p class="toast__message">This is a message</p>
                         <i class="fas fa-times margin-lr--medium"></i>
                     </div>
-                    <div class="toast-container  background--error clr--primary margin-lr--medium">
+                    <div class="toast-container  background--error clr--primary margin--medium">
                         <p class="toast__message">This is a message</p>
                         <i class="fas fa-times margin-lr--medium"></i>
                     </div>
-                    <div class="toast-container background--warning clr--primary margin-lr--medium">
+                    <div class="toast-container background--warning clr--primary margin--medium">
                         <p class="toast__message">This is a message</p>
                         <i class="fas fa-times margin-lr--medium"></i>
                     </div>
@@ -639,45 +827,28 @@
                 <p class="doc__description">Alerts are available in 5 types- success alert, error alert, warning alert, primary alert, secondary alert.</p>
 
                 <div class="container--90 border--grey padding--large margin--large">
-                    <div class="container__grid grid--col-50-50 margin--large">
+                    <div class="container__grid grid--col-50-50">
                         <div class="height-30">
                             <img class="img--cover" src="../Components/Images/product2.jpg" />
                         </div>
-                        <div class="card margin--auto">
-                            <div class="card__body padding--medium">
-                                <div class="card__heading margin-bottom--medium">
-                                    <div class="container__flex--spacebetween margin-bottom--small">
-                                        <h2 class="card__title text--large">Product</h2>
-                                        <i class="far fa-heart text--large"></i>
-                                    </div>
-                                    
-                                    <h3 class="card__subtitle text--medium">Subtitle Product</h3>
-                                </div> 
-                                <div class="card__description margin-bottom--medium">
-                                    <p class="clr--secondary">Rs. 599 <span class="text--line-through"> 999 </span></p>
-                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-                                </div>
-                                <div class="card__actions">
-                                    <div class="card__actions--buttons">
-                                        <button class="btn btn--secondary btn--icon"><i class="fas fa-shopping-cart"></i>Add to Cart</button>
-                                        <button class="btn btn--primary border--grey">Buy Now</button>                 
-                                    </div>
-                                    <div class="card__actions--icons">
-                                        <i class="fas fa-share-alt"></i>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="container__flex--center">
+                            <div>
+                                <h3 class="text--center">Hello World!</h3>
+                                <p class="text--center text--medium">Welcome to the store</p>
+                            </div>  
                         </div>
                 
                     </div>
             
-                    <div class="container__grid grid--col-70-30 margin--large">
+                    <div class="container__grid grid--col-70-30 margin-tb--medium">
                         <div class="height-30">
                             <img class="img--cover" src="../Components/Images/product2.jpg" />
                         </div>
-                        <div class="margin--auto">
-                            <h3 class="text--center">Hello World!</h3>
-                            <p class="text--large">Welcome to the store</p>
+                        <div class="container__flex--center">
+                            <div>
+                                <h3 class="text--center">Hello World!</h3>
+                                <p class="text--center text--medium">Welcome to the store</p>
+                            </div>  
                         </div>
                 
                     </div>

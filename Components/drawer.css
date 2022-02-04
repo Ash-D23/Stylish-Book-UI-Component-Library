@@ -32,6 +32,16 @@
     color: var(--text-clr-secondary)
 }
 
+.drawer__navigation-items:hover a{
+    background-color: var(--clr-light);
+    color: var(--text-clr-secondary)
+}
+
+.drawer__navigation-items a{
+    display: block;
+    width: 100%;
+}
+
 .drawer__navigation-items i{
     min-width: 2rem;
 }

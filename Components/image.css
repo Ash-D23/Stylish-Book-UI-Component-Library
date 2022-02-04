@@ -1,5 +1,6 @@
 .img--responsive{
     width: 100%;
+    height: 100%;
 }
 
 .img--round{
@@ -8,8 +9,8 @@
 }
 
 .img--medium{
-    width: 20rem;
-    height: 20rem;
+    width: 15rem;
+    height: 15rem;
     object-fit: cover;
 }
 

@@ -67,3 +67,10 @@ h6{
 .text--light{
     font-weight: 300;
 }
+
+@media only screen and (max-width: 600px) {
+
+    .text--large{
+        font-size: 2rem;
+    }
+}

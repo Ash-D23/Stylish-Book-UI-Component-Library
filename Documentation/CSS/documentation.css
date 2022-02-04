@@ -1,51 +1,4 @@
-.navbar__container .navbar__heading-container{
-    font-size: 2rem;
-    font-family: var(--font-family-secondary);
-}
-
-.navbar__container .navbar__item{
-    font-size: 2rem;
-    font-weight: 600;
-}
-
-.about__description h2{
-    font-family: var(--font-family-secondary);
-}
-
-.about__img{
-    max-width: 65rem;
-    max-height: 40rem;
-}
-
-.install{
-    min-height: 30vh;
-    padding: var(--padding-medium);
-}
-
-.install h2{
-    font-family: var(--font-family-secondary);
-}
-
-.footer__container{
-    background-color: var(--clr-secondary-dark);
-    color: var(--text-clr-secondary);
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.footer__icons i{
-    font-size: var(--text-large);
-    margin: 0 var(--margin-medium);
-}
-
-.footer__icons i:hover{
-    cursor: pointer;
-    font-size: 2.6rem;
-    
-}
+@import "doc__home.css";
 
 .code--template{
     box-sizing: border-box;
@@ -58,7 +11,8 @@
 
 .code--template iframe{
     width: 100%;
-    min-width: 32rem;
+    min-width: 34rem;
+    overflow: auto;
 }
 
 .doc__main{
@@ -66,7 +20,7 @@
     grid-template-columns: 25rem 1fr;
 }
 
-.doc__main h3{
+.doc__main .doc__title{
     font-family: var(--font-family-secondary);
     font-weight: 100;
 }
@@ -87,7 +41,7 @@
 .doc__section{
     padding: var(--padding-medium);
     margin-top: var(--margin-medium);
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid var(--clr-grey);
 }
 
 .doc__title{
@@ -101,6 +55,7 @@
 .main{
     width: 100%;
     overflow: hidden;
+    padding: var(--padding-medium)
 }
 
 .doc__main .container--90{
@@ -113,23 +68,6 @@
 
 @media only screen and (max-width: 600px) {
 
-    .container--90{
-        max-width: 100%;
-    }
-    
-    .about p,h2{
-        text-align: center;
-    }
-
-    .install p,h2{
-        text-align: center;
-    }
-
-    .btn--container{
-        display: flex;
-        justify-content: center;
-    }
-
     .doc__main{
         position: relative;
     }
@@ -137,17 +75,12 @@
     .doc__drawer{
         display: none;
         position: relative;
-        background-color: white;
-        border-right: 1px solid grey;
+        border-right: 1px solid var(--clr-grey);
         z-index: 2;
     }
 
     .doc__drawer--display{
         display: block;
-    }
-
-    .navbar__container--plain .navbar__list-container{
-        display: none;
     }
 
     .navbar__container--plain .navbar__display{
@@ -157,5 +90,14 @@
     .doc__main{
         display: grid;
         grid-template-columns: 1fr;
+    }
+
+    .main{
+        padding: 0;
+    }
+
+    *::-webkit-scrollbar {
+        width: 6px;
+        height: 10px;
     }
 }

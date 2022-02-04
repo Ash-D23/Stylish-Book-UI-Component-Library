@@ -115,7 +115,7 @@
     }
 
     .navbar__container--plain .navbar__list-container{
-        display: block;
+        display: none;
         border-top: 1px solid white
     }
 
