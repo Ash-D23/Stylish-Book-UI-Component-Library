@@ -78,14 +78,9 @@
 
 @media only screen and (max-width: 600px) {
 
-    .doc__main{
-        position: relative;
-    }
-
     .doc__drawer{
         display: none;
         position: relative;
-        border-right: 1px solid var(--clr-grey);
         z-index: 2;
     }
 
