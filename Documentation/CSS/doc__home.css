@@ -8,6 +8,10 @@
     font-weight: 600;
 }
 
+#home__nav .navbar__menu{
+    display: none;
+}
+
 .about__description h2{
     font-family: var(--font-family-secondary);
 }
@@ -66,6 +70,20 @@
 
     .container--90{
         max-width: 100%;
+    }
+
+    #home__nav .navbar__menu{
+        display: inline;
+        margin-left: var(--margin-medium);
+    }
+
+    #home__nav .navbar__list-container{
+        display: none;
+    }
+
+    #home__nav .navbar__display{
+        display: flex;
+        border-top: 1px solid var(--text-clr-secondary);
     }
     
     .about h2{

@@ -41,7 +41,7 @@ if(doc__menu){
     doc__menu.addEventListener('click', ()=>{
         doc__icon__menu.classList.toggle('hide');
         doc__icon__times.classList.toggle('hide');
-        doc__drawer.classList.toggle('doc__drawer--display');
+        doc__drawer?.classList.toggle('doc__drawer--display');
         navbar__list.classList.toggle('navbar__display');
     })
 }

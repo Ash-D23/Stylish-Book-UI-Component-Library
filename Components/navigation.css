@@ -91,13 +91,13 @@
     .navbar__container .navbar__heading-container{
         width: 90%;
         margin: 0 auto;
-        padding-bottom: var(--padding-medium);
-        border-bottom: 2px solid var(--text-clr-secondary);
     }
 
     .navbar__list-container{
         flex-direction: column;
         width: 100%;
+        border-top: 1px solid var(--text-clr-secondary);
+        margin-top: var(--margin-medium);
     }
 
     .navbar__item{
