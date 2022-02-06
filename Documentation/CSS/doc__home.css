@@ -62,7 +62,7 @@
     font-weight: 600;
 }
 
-.btn--icon i{
+.moon i, .sun i{
     margin-right: 0;
 }
 
@@ -115,9 +115,7 @@
         display: inline;
     }
 
-    .btn--icon i{
+    .moon i, .sun i{
         margin-right: var(--margin-medium);
     }
-    
-
 }
