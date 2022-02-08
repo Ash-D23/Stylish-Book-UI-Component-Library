@@ -30,21 +30,19 @@ The Component Library Comes in both Dark and Light theme to change theme set dat
 
 Following Components are available in the Component Library
 
-```
-Avatar
-Alert
-Badge
-Button
-Card
-Image
-Form & Input
-Text Utilities
-Lists
-Navigation
-Modal
-Rating 
-Toast
-Simplified Grid
-Navigation
-Drawer
-```
+* Avatar
+* Alert
+* Badge
+* Button
+* Card
+* Image
+* Form & Input
+* Text Utilities
+* Lists
+* Navigation
+* Modal
+* Rating 
+* Toast
+* Simplified Grid
+* Navigation
+* Drawer
