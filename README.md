@@ -1,7 +1,5 @@
 # Stylish Book UI: Component-Library
 
-### Demo Link: 
-
 https://stylishbookui.netlify.app/
 
 ## Introduction
@@ -25,7 +23,6 @@ To add js functionality add the following code at the end of body
 
 The Component Library Comes in both Dark and Light theme to change theme set data-theme attribute to dark or light in body
 
-
 ## Features
 
 Following Components are available in the Component Library
@@ -46,3 +43,4 @@ Following Components are available in the Component Library
 * Simplified Grid
 * Navigation
 * Drawer
+* Slider
