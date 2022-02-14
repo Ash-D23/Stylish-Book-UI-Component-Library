@@ -76,12 +76,17 @@
     color: var(--text-clr-secondary)
 }
 
+.doc__drawer{
+    height: 100vh;
+}
+
 @media only screen and (max-width: 600px) {
 
     .doc__drawer{
         display: none;
         position: relative;
         z-index: 2;
+        height: auto;
     }
 
     .doc__drawer--display{
