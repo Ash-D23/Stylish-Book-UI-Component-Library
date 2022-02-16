@@ -102,3 +102,24 @@
 .card--dismiss{
     cursor: pointer;
 }
+
+.outofstock--overlay{
+    opacity: 0.6;
+    background-color: var(--clr-grey);
+}
+
+.outofstock--container{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.outofstock--message{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
