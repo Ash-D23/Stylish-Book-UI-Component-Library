@@ -74,6 +74,11 @@
 
 .navbar__menu{
     display: none;
+    font-size: var(--text-large);
+}
+
+.navbar__title{
+    font-size: var(--text-large);
 }
 
 
@@ -130,6 +135,18 @@
 
     .navbar__container--plain .navbar__item{
         text-align: left;
+    }
+
+    #navbar__menu{
+        display: block;
+    }
+
+    .navbar__list__hamburger{
+        display: none;
+    }
+
+    .navbar__display{
+        display: block;
     }
 
 }

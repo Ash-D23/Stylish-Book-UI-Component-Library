@@ -50,3 +50,18 @@ if(modal_demo_close){
         modal_demo_component.classList.add('hide')
     })
 }
+
+/* Navigation */
+
+let nav__menu = document.querySelector('#navbar__menu');
+let nav__container = document.querySelector('#navbar__list-container');
+let icon__menu = document.querySelector('#icon__menu');
+let icon__times = document.querySelector('#icon__times');
+
+if(nav__menu){
+    nav__menu.addEventListener('click', ()=>{
+        nav__container.classList.toggle('navbar__display');
+        icon__menu.classList.toggle('hide');
+        icon__times.classList.toggle('hide');
+    })
+}
