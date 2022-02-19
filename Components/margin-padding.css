@@ -24,29 +24,40 @@
     margin-top: var(--margin-large);
 }
 
+.margin-bottom--small{
+    margin-bottom: var(--margin-small);
+}
 
 .margin-bottom--medium{
     margin-bottom: var(--margin-medium);
-}
-
-.margin-bottom--small{
-    margin-bottom: var(--margin-small);
 }
 
 .margin-bottom--large{
     margin-bottom: var(--margin-large);
 } 
 
-.margin-right--medium{
-    margin-right: var(--margin-medium);
-}
-
 .margin-right--small{
     margin-right: var(--margin-small);
 }
 
+.margin-right--medium{
+    margin-right: var(--margin-medium);
+}
+
 .margin-right--large{
     margin-right: var(--margin-large);
+} 
+
+.margin-left--small{
+    margin-left: var(--margin-small);
+}
+
+.margin-left--medium{
+    margin-left: var(--margin-medium);
+}
+
+.margin-left--large{
+    margin-left: var(--margin-large);
 } 
 
 .margin-lr--small{
@@ -89,4 +100,76 @@
 
 .padding--large{
     padding: var(--padding-large);
+}
+
+.padding-top--small{
+    padding-top: var(--padding-small);
+}
+
+.padding-top--medium{
+    padding-top: var(--padding-medium);
+}
+
+.padding-top--large{
+    padding-top: var(--padding-large);
+}
+
+.padding-bottom--small{
+    padding-bottom: var(--padding-small);
+}
+
+.padding-bottom--medium{
+    padding-bottom: var(--padding-medium);
+}
+
+.padding-bottom--large{
+    margin-bottom: var(--padding-large);
+} 
+
+.padding-right--small{
+    padding-right: var(--padding-small);
+}
+
+.padding-right--medium{
+    padding-right: var(--padding-medium);
+}
+
+.padding-right--large{
+    padding-right: var(--padding-large);
+} 
+
+.padding-left--small{
+    padding-left: var(--padding-small);
+}
+
+.padding-left--medium{
+    padding-left: var(--padding-medium);
+}
+
+.padding-left--large{
+    padding-left: var(--padding-large);
+} 
+
+.padding-lr--small{
+    padding: 0 var(--padding-small);
+}
+
+.padding-lr--medium{
+    padding: 0 var(--padding-medium);
+}
+
+.padding-lr--large{
+    padding: 0 var(--padding-large);
+}
+
+.padding-tb--small{
+    padding: var(--padding-small) 0;
+}
+
+.padding-tb--medium{
+    padding: var(--padding-medium) 0;
+}
+
+.padding-tb--large{
+    padding: var(--padding-large) 0;
 }
