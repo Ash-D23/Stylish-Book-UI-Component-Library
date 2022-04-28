@@ -2,7 +2,7 @@ let moon = document.querySelector('.moon');
 let sun = document.querySelector('.sun');
 
 let theme = localStorage.getItem("datatheme");
-console.log(theme)
+
 if(theme === 'dark'){
     document.body.setAttribute('data-theme', 'dark');
     sun.classList.remove('hide')
@@ -45,6 +45,41 @@ if(doc__menu){
         navbar__list.classList.toggle('navbar__display');
     })
 }
+
+let sidebars = document.querySelectorAll('.doc__drawer .drawer__navigation-items')
+let mainSections = document.querySelectorAll('.doc__section')
+
+let activeIndex = 0
+
+const updateActiveIndex = (index) => {
+
+    let activeElement = document.querySelector('.doc__drawer .active')
+    activeElement.classList.remove('active')
+    sidebars[index].classList.add('active')
+    activeIndex = index
+
+}
+
+window.addEventListener("scroll", (event) => {
+
+    let currentScrollPosition = window.pageYOffset
+
+    let calculatedActiveIndex = 0
+
+    mainSections.forEach((item, index)=>{
+        let itemScrollPosition = item.offsetTop
+        if(currentScrollPosition > itemScrollPosition-2){
+            calculatedActiveIndex = index
+        }
+    })
+
+    if(calculatedActiveIndex !== activeIndex){
+        updateActiveIndex(calculatedActiveIndex)
+    }
+    
+});
+
+
 
 
 

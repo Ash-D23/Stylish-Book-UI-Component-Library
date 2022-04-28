@@ -33,7 +33,6 @@
 }
 
 .drawer__navigation-items:hover a{
-    background-color: var(--clr-light);
     color: var(--text-clr-secondary)
 }
 
@@ -52,5 +51,9 @@
 
 .drawer__navigation .active{
     background-color: var(--clr-light);
+    color: var(--text-clr-secondary)
+}
+
+.drawer__navigation .active a{
     color: var(--text-clr-secondary)
 }

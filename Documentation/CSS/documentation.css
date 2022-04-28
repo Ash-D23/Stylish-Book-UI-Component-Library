@@ -110,4 +110,14 @@
         width: 6px;
         height: 10px;
     }
+
+    .doc__drawer .active{
+        background-color: var(--clr-primary);
+        color: var(--text-clr-primary)
+    }
+
+    .doc__drawer .active a{
+        color: var(--text-clr-primary)
+    }
+
 }
