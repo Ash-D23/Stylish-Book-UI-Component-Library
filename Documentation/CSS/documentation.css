@@ -80,6 +80,11 @@
     height: 100vh;
 }
 
+.btn--out{
+    background-color: var(--clr-secondary);
+    color: var(--text-clr-secondary)
+}
+
 @media only screen and (max-width: 600px) {
 
     .doc__drawer{
